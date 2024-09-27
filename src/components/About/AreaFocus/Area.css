@@ -1,0 +1,27 @@
+.area-text-container-2{
+    line-height:2.5; /* Adjust as needed for readability */
+    margin: 1em 0; /* Add some margin for spacing between paragraphs */
+}
+
+.area-underLine {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .area-underLine {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .area-underLine::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 3px;
+    background: linear-gradient(90deg, orange, yellow, green);
+  }
+  

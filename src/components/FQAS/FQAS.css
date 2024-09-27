@@ -1,0 +1,53 @@
+
+
+.faq-container>div{
+    flex:1
+}
+
+.faq{
+    gap: 0.5rem;
+}
+
+.faq-accordian{
+    margin-top: 2rem;
+    border: none;
+}
+
+.faq-accordianItem{
+    background: white;
+    border: 0.8px solid rgba(128,128,128,0.143);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+ 
+.faq-accordianButton{
+    background: white;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faq-icon{
+    padding: 10px;
+    background: #eeeeff;
+    border-radius: 5px;
+}
+
+ .faq-icon svg{
+    fill : var(--blue)
+ }
+
+ .faq-accordianItem.expanded{
+    box-shadow: var(--shadow);
+    border-radius: 6px;
+ }
+
+ @media(max-width:1024px){
+    .faq-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+ }

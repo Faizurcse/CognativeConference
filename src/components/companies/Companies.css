@@ -1,0 +1,46 @@
+
+.c-container{
+    justify-content: space-around;
+    gap: 1rem;
+}
+.c-container>img{
+    width: 9rem;
+}
+
+.c-head{
+    margin-top: 2rem;
+}
+
+/* Marquee.css */
+.marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    /* background-color: #f0f0f0; Optional: background color */
+  }
+  
+  .marquee {
+    display: flex;
+    align-items: center;
+  }
+  
+  .marquee img {
+    height: 50px; /* Adjust height as needed */
+    margin: 0 15px; /* Space between images */
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .marquee img {
+      height: 80px; /* Adjust height for smaller screens */
+      margin: 0 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .marquee img {
+      height: 60px; /* Further adjust height for very small screens */
+      margin: 0 5px;
+    }
+  }
+  

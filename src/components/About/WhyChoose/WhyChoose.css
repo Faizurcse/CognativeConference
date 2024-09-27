@@ -1,0 +1,36 @@
+
+.whyChoose-wrapper .WhyChoose-text-container-2 > span > p {
+    line-height: 2rem; 
+    /* margin: 0.3em 0; 
+    font-size: 16px;
+    font-weight: 400; */
+  }
+  
+  .whyChoose-wrapper{
+    margin-top:1rem;
+  }
+
+  
+.choose-underLine {
+    margin-bottom: 0.8rem;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .choose-underLine {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  .choose-underLine::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -3px;
+    height: 3px;
+    background: linear-gradient(90deg, orange, yellow, green);
+  }
+  

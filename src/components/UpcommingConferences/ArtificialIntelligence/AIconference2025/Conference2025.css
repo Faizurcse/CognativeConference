@@ -1,0 +1,36 @@
+.conference-2025-v-warpper{
+    background-color: rgba(216, 231, 245, 0.612);
+}
+.conference-2025-v-warpper .conference-2025-image-container{
+    width:30rem;
+    height:30rem;
+    overflow: hidden;
+    border-radius: 3rem 3rem 1rem 1rem;
+    border: 8px solid rgba(235, 210, 210, 0.479);
+    margin: 1rem;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 22px 10px rgba(121, 140, 218, 0.242);
+    object-fit: cover ;
+}
+
+.conference-2025-v-container{
+    gap: 2rem;
+}
+
+.ai-confernce-2025{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+}
+
+.conference-2025-v-container>div{
+    flex:1;
+}
+
+.conference-2025-v-right{
+    gap: 0.3rem;
+}
+
+.conference-2025-LineHeight{
+    line-height:1.8;
+}
