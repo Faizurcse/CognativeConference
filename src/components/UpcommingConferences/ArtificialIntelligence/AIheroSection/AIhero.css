@@ -102,6 +102,7 @@ span {
   flex-wrap: wrap;
   margin-top: 2rem; 
   margin-bottom: 5rem;
+  
 }
 
 .ai-button {
@@ -113,10 +114,12 @@ span {
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  border-radius: 1rem 0rem 1rem 0rem;
 }
 
 .ai-register {
   padding: 0.5rem 4rem;
+  
 }
 
 .ai-button:hover {

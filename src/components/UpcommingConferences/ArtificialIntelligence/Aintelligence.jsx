@@ -5,6 +5,8 @@ import AIHero from "./AIheroSection/AIHero.jsx";
 import AIconference2025 from './AIconference2025/Conference2025.jsx'
 import ScientificSession from "./AIscientificSession/ScientificSession.jsx"
 import VenueAttraction   from "./VenueAttraction/VenueAttraction.jsx"
+import Earlybirdregistration from "./Earlybirdregistration/Earlybirdregistration.jsx"
+import GetInTouch from "./GetInTouch/GetInTouch.jsx"
 import './AI.css'
 function Aintelligence() {
   return (
@@ -16,6 +18,8 @@ function Aintelligence() {
       <AIconference2025/>
       <ScientificSession/>
       <VenueAttraction/>
+      <Earlybirdregistration/>
+      <GetInTouch/>
       <Footer/>
     </div>
   );

@@ -51,10 +51,12 @@
  .ss-btn-padding{
     padding: 1rem;
     font-size:medium;
+    border-radius: 1.3rem 0rem 1.3rem 0rem;
  }
 
  .ss-btn-container{
     margin-top: -3rem;
+    
  }
 
  .ss-accordianItem.expanded{
