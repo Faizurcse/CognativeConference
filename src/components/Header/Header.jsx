@@ -24,7 +24,7 @@ function Header() {
     <section className="h-wrapper">
       <div className="flexCenter paddings innerWidth h-container">
         <img
-          src="../../../public/COGNITIVE.png"
+          src="logo.png"
           alt="logo"
           width={150}
           style={{ borderRadius: "10px" }}
