@@ -8,36 +8,36 @@ const data1 = [
     detail:
       "The Cognitive Tech Summit is an event where experts and enthusiasts from around the Globe come together to talk about the latest in AI conference and other new technologies. It’s a place to share ideas and learn how these AI Technologies are changing our world.",
   },
-  // {
-  //   icon: <MdAnalytics />,
-  //   heading: "When and where is the summit taking place?",
-  //   detail:
-  //     "The date and location can vary each year. Check the official summit website or contact the event organizers for the most current information.",
-  // },
-  // {
-  //   icon: <HiDatabase />,
-  //   heading: "Who should attend the Upcoming AI Summit?",
-  //   detail: `Anyone interested in AI conference should attend including : 
+  {
+    icon: <MdAnalytics />,
+    heading: "When and where is the summit taking place?",
+    detail:
+      "The date and location can vary each year. Check the official summit website or contact the event organizers for the most current information.",
+  },
+  {
+    icon: <HiDatabase />,
+    heading: "Who should attend the Upcoming AI Summit?",
+    detail: `Anyone interested in AI conference should attend including : 
      
-  //   Researchers, 
-  //   Students, 
-  //   Investors, 
-  //   Scientists, 
-  //   Industry professionals.`,
-  // },
-  // {
-  //   icon: <HiChip />,
-  //   heading: "What topics will be covered at the Upcoming AI Conference?",
-  //   detail:
-  //     `
-  //     The Upcoming AI conference will talk about things like : 
+    Researchers, 
+    Students, 
+    Investors, 
+    Scientists, 
+    Industry professionals.`,
+  },
+  {
+    icon: <HiChip />,
+    heading: "What topics will be covered at the Upcoming AI Conference?",
+    detail:
+      `
+      The Upcoming AI conference will talk about things like : 
 
-  //   Artificial Intelligence, 
-  //   AI Cybersecurity,
-  //   Generative AI,
-  //   AI Industry 4.0.
-  //     `,
-  // },
+    Artificial Intelligence, 
+    AI Cybersecurity,
+    Generative AI,
+    AI Industry 4.0.
+      `,
+  },
   {
     icon: <HiChip />,
     heading: "How does the Upcoming AI Event Cognitive Tech Summit benefit participants?",

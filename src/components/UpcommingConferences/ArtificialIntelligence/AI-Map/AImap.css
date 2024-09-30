@@ -1,0 +1,72 @@
+.ai-map-wrapper {
+    background-color: rgba(65, 144, 218, 0.292);
+  }
+  
+  .ai-map-left,
+  .ai-map-right {
+    flex: 1;
+  }
+  
+  .contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 3rem 0rem 2rem 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width:80%;
+  }
+  
+  .input-group {
+    margin-bottom:5px;
+    width: 100%;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .input-group input,
+  .input-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input-group input:focus,
+  .input-group textarea:focus {
+    border: 1px solid #4a90e2;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.2);
+    outline: none;
+  }
+  
+  .input-group textarea {
+    resize: vertical;
+  }
+  
+  .cnt-btn {
+    width: 100%;
+  }
+  
+  
+  .map-v-container{
+    width:80%;
+    /* height: 450px; */
+  }
+
+  .map-v-container iframe{
+    border: none;
+    border-radius:8px ;
+  }
+
+  .map-heading {
+    margin-bottom: 2rem;
+  }
+  
+  
+  

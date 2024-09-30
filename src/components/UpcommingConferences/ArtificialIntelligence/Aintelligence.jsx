@@ -7,6 +7,9 @@ import ScientificSession from "./AIscientificSession/ScientificSession.jsx"
 import VenueAttraction   from "./VenueAttraction/VenueAttraction.jsx"
 import Earlybirdregistration from "./Earlybirdregistration/Earlybirdregistration.jsx"
 import GetInTouch from "./GetInTouch/GetInTouch.jsx"
+import AImediaPartners from "./AI-Media-Partners/AImediaPartners.jsx"
+import AIFaqs from "./AI-faqs/AiFaqs.jsx"
+import AImap from "./AI-Map/AImap.jsx"
 import './AI.css'
 function Aintelligence() {
   return (
@@ -20,6 +23,9 @@ function Aintelligence() {
       <VenueAttraction/>
       <Earlybirdregistration/>
       <GetInTouch/>
+      <AImediaPartners/>
+      <AIFaqs/>
+      <AImap/>
       <Footer/>
     </div>
   );

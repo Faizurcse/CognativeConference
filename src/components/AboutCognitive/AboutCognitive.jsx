@@ -12,6 +12,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 
 import "./AboutCognitive.css";
 import data from "../../utils/accordion";
+import img22 from "../../../public/aiPartsImages.jpg"
 
 function AboutCognitive() {
   return (
@@ -19,8 +20,8 @@ function AboutCognitive() {
       <div className="paddings innerWidth flexCenter v-container">
         <div className="v-left">
           <div className="image-container">
-            <img
-              src="https://png.pngtree.com/thumb_back/fh260/background/20230408/pngtree-robot-blue-light-technology-artificial-intelligence-future-robot-image_2199774.jpg"
+            <img className="img-22"
+              src={img22}
               alt="Error"
             />
           </div>

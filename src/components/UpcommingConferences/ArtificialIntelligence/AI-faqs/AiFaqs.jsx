@@ -10,25 +10,29 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 
-import "./FQAS.css";
-import data1 from "../../utils/data1.jsx";
+import "./AIfaqs.css";
+import AIfaqsData from "../../../../utils/AIfaqsData.jsx";
 
-function FQAS() {
+function AIFaqs() {
   return (
-    <section className="faq-warpper">
-      <div className="paddings innerWidth  faq-container">
+    <section className="faq-warpper ai-faqs-warpper-bgc">
+      <div className="paddings innerWidth flexCenter faq-container">
         <div className="flexCenter faq">
           <span className="primaryText">Frequently Asked Questions(FQAS)</span>
-          
+
           <Accordion
             className="faq-accordian"
             allowMultipleExpanded={false}
             preExpanded={[0]}
           >
-            {data1.map((item, i) => {
-                const [className,setClassName] = useState(null)
+            {AIfaqsData.map((item, i) => {
+              const [className, setClassName] = useState(null);
               return (
-                <AccordionItem className={`faq-accordianItem ${className}`} key={i} uuid={i}>
+                <AccordionItem
+                  className={`faq-accordianItem ${className}`}
+                  key={i}
+                  uuid={i}
+                >
                   <AccordionItemHeading>
                     <AccordionItemButton className="flexCenter faq-accordianButton">
                       <AccordionItemState>
@@ -39,7 +43,7 @@ function FQAS() {
                         }
                       </AccordionItemState>
                       <div className="flexCenter faq-icon">{item.icon}</div>
-                      <span className=" primaryText-2">{item.heading}</span>
+                      <span className="primaryText-2">{item.heading}</span>
                       <div className="flexCenter faq-icon">
                         <MdOutlineArrowDropDown size={20} />
                       </div>
@@ -58,4 +62,4 @@ function FQAS() {
   );
 }
 
-export default FQAS;
+export default AIFaqs;

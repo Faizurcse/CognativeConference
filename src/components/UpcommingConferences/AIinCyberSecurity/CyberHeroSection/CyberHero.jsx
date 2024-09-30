@@ -1,5 +1,6 @@
+
 import React from "react";
-import "./AIhero.css";
+import "./CyberHero.css";
 import {
   FaCalendarAlt,
   FaMapMarkerAlt,
@@ -7,47 +8,48 @@ import {
   FaRegClock,
 } from "react-icons/fa";
 
-function AIHero() {
+import heroImg from "../../../../../public/cyberHeroImge.png"
+import smallHeroImg from "../../../../../public/heroSmallimg.jpg"
+
+function CyberHero() {
   return (
     <section className="ai-hero-wrapper">
       <div className="ai-image-container">
         <img
           className="ai-img"
-          src="https://aimadeimage.net/wp-content/uploads/2023/11/ai-robot-wallpaper-16.jpg"
+          src={heroImg}
           alt="AI Conference"
         />
       </div>
       <div className="ai-main">
-        <div className="paddings innerWidth flexCenter ai-info">
+        <div className="paddings innerWidth flexCenter ai-info cyber-info">
           <span className="ai-primarytext">
-            International Conference on Artificial Intelligence
+          International Conference on AI Cyber Security
           </span>
           <span className="ai-secondarytext-2">
-            Theme : Merging Minds and Machines for a Future of Infinite
-            Possibilities and Innovations
+          Theme : Enhancing Threat Detection and Response through Advanced Machine Learning
           </span>
         </div>
         <div className="ai-direction-row">
-          <div className=" flexCenter ai-info-card">
+          <div className=" flexCenter ai-info-card  cyber-info-card">
             <img
-              className="ai-logo"
-              width="300"
-              src="https://globalai.community/media/jhzomepg/302312863.webp?width=1920&v=1dad96f6dea7490"
+              className="ai-logo cyber-logo"
+              src={smallHeroImg}
               alt="AI Logo"
             />
             <div className="ai-details">
               <div className="ai-date flexCenter">
                 <FaCalendarAlt className="ai-icon" />
                 <div>
-                  <h3>Date</h3>
-                  <span className="ai-textSize">October 13-14, 2025</span>
+                  <h3>Date</h3> 
+                  <span className="ai-textSize">June 02-03, 2025</span>
                 </div>
               </div>
               <div className="ai-venue flexCenter">
                 <FaMapMarkerAlt className="ai-icon" />
                 <div>
                   <h3>Venue</h3>
-                  <span className="ai-textSize">Zurich, Switzerland</span>
+                  <span className="ai-textSize">Tokyo, Japan</span>
                 </div>
               </div>
             </div>
@@ -100,4 +102,4 @@ function AIHero() {
   );
 }
 
-export default AIHero;
+export default CyberHero;
