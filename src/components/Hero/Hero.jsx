@@ -76,7 +76,7 @@ function Hero() {
 
           >
             <img
-              src="../../../public/ai-generated-8327395_640.webp"
+              src="ai-generated-8327395_640.webp"
               alt="hero"
             />
           </motion.div>
