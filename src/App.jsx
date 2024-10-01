@@ -6,8 +6,8 @@ import About from "./components/About/About.jsx"
 import Contact from "./components/Contact/Contact.jsx"
 import Aintelligence from "./components/UpcommingConferences/ArtificialIntelligence/Aintelligence.jsx"
  import CyberSecurity from "./components/UpcommingConferences/AIinCyberSecurity/CyberSecurity.jsx"
-// import Conference3 from "./components/UpcommingConferences/conference3.jsx"
-// import Conference4 from "./components/UpcommingConferences/conference4.jsx"
+import GenerativeAI from "./components/UpcommingConferences/Generative-AI/GenerativeAiMain.jsx"
+import AiinIndustry from "./components/UpcommingConferences/AI-in-Industry-4.0/Industry.jsx"
 function App() {
   
   return (
@@ -18,8 +18,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/artificial-intelligence" element={<Aintelligence />} />
          <Route path="/cyber-security" element={<CyberSecurity  />} />
-         {/* <Route path="/conference3" element={<Conference3 />} /> */}
-        {/* <Route path="/conference4" element={<Conference4 />} />  */}
+         <Route path="/generative-ai" element={<GenerativeAI />} /> 
+         <Route path="/ai-in-Industry" element={<AiinIndustry/>} /> 
       </Routes>
     </Router>
   )

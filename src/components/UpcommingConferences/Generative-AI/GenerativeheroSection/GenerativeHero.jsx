@@ -1,6 +1,5 @@
-
 import React from "react";
-import "./CyberHero.css";
+import "./Generativehero.css";
 import {
   FaCalendarAlt,
   FaMapMarkerAlt,
@@ -8,46 +7,45 @@ import {
   FaRegClock,
 } from "react-icons/fa";
 
-
-function CyberHero() {
+function GenerativeHero() {
   return (
     <section className="ai-hero-wrapper">
       <div className="ai-image-container">
         <img
           className="ai-img"
-          src="cyberHeroImge.png"
+          src="GenerativeHero.webp"
           alt="AI Conference"
         />
       </div>
       <div className="ai-main">
-        <div className="paddings innerWidth flexCenter ai-info cyber-info">
+        <div className="paddings innerWidth flexCenter ai-info">
           <span className="ai-primarytext">
-          International Conference on AI Cyber Security
+          International Conference on Generative AI
           </span>
           <span className="ai-secondarytext-2">
-          Theme : Enhancing Threat Detection and Response through Advanced Machine Learning
+          Theme : Generative AI transforms ideas into innovative solutions
           </span>
         </div>
         <div className="ai-direction-row">
-          <div className=" flexCenter ai-info-card  cyber-info-card">
+          <div className=" flexCenter ai-info-card">
             <img
-              className="ai-logo cyber-logo"
-              src="heroSmallimg.jpg"
+              className="ai-logo"
+              src="https://cdn.pixabay.com/photo/2020/05/10/10/48/osaka-5153461_640.jpg"
               alt="AI Logo"
             />
             <div className="ai-details">
               <div className="ai-date flexCenter">
                 <FaCalendarAlt className="ai-icon" />
                 <div>
-                  <h3>Date</h3> 
-                  <span className="ai-textSize">June 02-03, 2025</span>
+                  <h3>Date</h3>
+                  <span className="ai-textSize">November 10-11, 2025</span>
                 </div>
               </div>
               <div className="ai-venue flexCenter">
                 <FaMapMarkerAlt className="ai-icon" />
                 <div>
                   <h3>Venue</h3>
-                  <span className="ai-textSize">Tokyo, Japan</span>
+                  <span className="ai-textSize">Osaka, Japan</span>
                 </div>
               </div>
             </div>
@@ -100,4 +98,4 @@ function CyberHero() {
   );
 }
 
-export default CyberHero;
+export default GenerativeHero;

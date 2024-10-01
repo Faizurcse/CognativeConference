@@ -48,12 +48,12 @@ function Header() {
                    <Link to="/cyber-security" className="dropdown-item">
                     AI in Cyber Security
                   </Link>
-                 {/* <Link to="/conference3" className="dropdown-item">
+                 <Link to="/generative-ai" className="dropdown-item">
                     Generative AI
-                  </Link> */}
-                   {/* <Link to="/conference4" className="dropdown-item">
-                    AI in Industry 4.0
-                   </Link>  */}
+                  </Link> 
+                   <Link to="/ai-in-Industry" className="dropdown-item">
+                   AI-in-Industry
+                    </Link>  
                 </div>
               )}
             </span>
