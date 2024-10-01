@@ -10,8 +10,8 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 
-import "./Generativefaqs.css";
-import GenertaivefaqsData from "./GEnertaivefaqs.jsx";
+import "./Industryfaqs.css";
+import GenertaivefaqsData from "./Industry40faqs.jsx";
 
 function AIFaqs() {
   return (

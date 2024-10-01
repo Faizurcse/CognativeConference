@@ -1,30 +1,30 @@
-import { HiLightBulb, HiChip, HiShieldCheck, HiGlobe} from "react-icons/hi";
+import { HiLightBulb, HiChip, HiShieldCheck, HiGlobe, HiDesktopComputer, HiUserGroup } from "react-icons/hi";
 
 const AIfaqsData = [
   {
     icon: <HiLightBulb />,
-    heading: "What are Generative Adversarial Networks (GANs) and how do they work in AI?",
+    heading: "What is Artificial Intelligence (AI)?",
     detail:
-      "GANs are AI models with two networks: one makes new data and the further checks it.  One network creates the data, and the other checks if it’s real or fake. They compete with each other, which helps the model get better at making realistic data.",
+      "Artificial Intelligence is a part of computer science that focuses on creating smart machines. These machines try to think like humans. They learn, figure things out, and make choices. People speak about AI a lot at big tech meetings like the AI Event.",
   },
   {
     icon: <HiChip />,
-    heading: "How does AI content creation improve with machine learning and Deep learning?",
+    heading: "How does AI work in robotics and AI applications?",
     detail:
-      "AI-based content creation uses machine learning and deep learning to create text, images, and other media . These tools help make high-quality relevant content on a large scale using AI models for text and story generation.",
+      "In robotics, AI helps machines do jobs on their own. It uses special computer programs that let machines learn and think. To understand more about how AI fits into different tools, you can go to big tech events. The AI Summit and AI & ML Summit are good places to learn about this stuff. systems to improve their performance over time by learning from data.",
   },
   {
     icon: <HiShieldCheck />,
-    heading: "What progress has been made in language models for Generative AI?",
+    heading: "What are the different types of AI discussed at Artificial Intelligence Conference?",
     detail: `
-      New developments in language models for Generative AI include better text generation models and improved ways to train language models. These steps make AI more accurate and creative when it comes to writing text that sounds human. This helps with things like chatbots and AI-driven content creation.
+      At Artificial Intelligence Conference, experts talk about different AI types. These include Narrow AI, which focuses on specific tasks. They also cover General AI, which aims to handle any intellectual task. They explore Strong AI, a theoretical concept of AI with human-like awareness.
     `,
   },
   {
     icon: <HiChip />,
-    heading: "What's Creative AI's job at the Generative AI conference?",
+    heading: "What are some common AI applications highlighted at the AI Conference?",
     detail: `
-      At the Generative AI conference, Creative AI is intense on using AI to make new and special creative works, like stories, music, or art. They use special techniques like Generative Adversarial Networks (GANs) to help AI get better at creating these things.
+      The AI & ML Summit showcase several common AI uses. These include robots, tools to diagnose health issues, cars that drive themselves, and machine learning algorithms. People apply these algorithms to predict financial trends and create systems that suggest products or content.
     `,
   },
   {
@@ -36,8 +36,13 @@ const AIfaqsData = [
   },
   {
     icon: <HiGlobe />,
-    heading: "How does Open AI contribute to the growth of Generative AI technologies?",
-    detail: "Open AI leads the way in developing Generative AI technologies. They help advance machine learning, deep learning, and language models. They also provide tools like APIs, which let developers add powerful AI features to their apps, including data science tools and chatbots.",
+    heading: "What is the scope of the conference?",
+    detail: "The conference explores the vast impact of AI across diverse sectors, including business, healthcare, and more, fostering discussions on the transformative role of AI in shaping industries and society.",
+  },
+  {
+    icon: <HiUserGroup />,
+    heading: "Why should I attend the AI & Its Applications conference?",
+    detail: "The conference offers a unique platform to delve into the latest trends, innovations, and real-world applications of artificial intelligence, providing valuable insights for professionals, researchers, and enthusiasts.",
   }
 ];
 
