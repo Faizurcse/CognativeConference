@@ -8,6 +8,9 @@ import Aintelligence from "./components/UpcommingConferences/ArtificialIntellige
  import CyberSecurity from "./components/UpcommingConferences/AIinCyberSecurity/CyberSecurity.jsx"
 import GenerativeAI from "./components/UpcommingConferences/Generative-AI/GenerativeAiMain.jsx"
 import AiinIndustry from "./components/UpcommingConferences/AI-in-Industry-4.0/Industry.jsx"
+import CancellationPolicy from "./components/Footer/CancellationPolicy.jsx";
+import TermsandConditions from "./components/Footer/TermsandConditions.jsx";
+import PrivacyPolicy from "./components/Footer/PrivacyPolicy.jsx";
 function App() {
   
   return (
@@ -20,6 +23,9 @@ function App() {
          <Route path="/cyber-security" element={<CyberSecurity  />} />
          <Route path="/generative-ai" element={<GenerativeAI />} /> 
          <Route path="/ai-in-Industry" element={<AiinIndustry/>} /> 
+         <Route path="/cancellation-policy" element={<CancellationPolicy/>}/>
+         <Route path="/terms-and-Conditions" element={<TermsandConditions/>}/>
+         <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
       </Routes>
     </Router>
   )

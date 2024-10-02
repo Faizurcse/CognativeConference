@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaFacebook,
   FaInstagram,
@@ -57,17 +58,17 @@ function Footer() {
       <div className="footer-bottom">
         <p className="footer-text">
           Copyright © 2024 Cognitive Tech Summit |
-          <a href="/cancellation-policy" className="footer-link">
+          <Link className="footer-link" to="/cancellation-policy ">
             Cancellation Policy
-          </a>{" "}
+          </Link>
           |
-          <a href="/terms-conditions" className="footer-link">
-            Terms & Conditions
-          </a>{" "}
+          <Link className="footer-link" to="/terms-and-conditions">
+            Terms and Conditions
+          </Link>
           |
-          <a href="/privacy-policy" className="footer-link">
+          <Link className="footer-link" to="/privacy-policy">
             Privacy Policy
-          </a>
+          </Link>
         </p>
       </div>
     </section>
