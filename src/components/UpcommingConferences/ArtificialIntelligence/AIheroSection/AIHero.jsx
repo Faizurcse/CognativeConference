@@ -6,6 +6,7 @@ import {
   FaFileAlt,
   FaRegClock,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function AIHero() {
   return (
@@ -53,7 +54,6 @@ function AIHero() {
             </div>
           </div>
           <div className="ai-info-card flexCenter">
-          
             <div className="ai-details">
               <div className="ai-date flexCenter">
                 <FaFileAlt className="ai-icon" />
@@ -80,7 +80,9 @@ function AIHero() {
 
         <div className="ai-buttons-container">
           <div className="ai-boucher-cards ai-card">
+          <Link to="/artificial-intelligence/artificial-intelligence-download-broucher/">
             <button className="ai-button">Download Brochure</button>
+          </Link>
           </div>
 
           <div className="ai-abstract-cards ai-card">
@@ -92,7 +94,8 @@ function AIHero() {
           </div>
 
           <div className="ai-speaker-cards ai-card">
-            <button className="ai-button">Speaker Guidelines</button>
+            
+              <button className="ai-button">Speaker Guidelines</button>
           </div>
         </div>
       </div>

@@ -137,9 +137,9 @@ const styles = {
     padding: "20px",
     maxWidth: "1200px",
     margin: "0 auto",
-    backgroundColor: "#f9f9f9",
-    borderRadius: "8px",
-    boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
+    // backgroundColor: "#f9f9f9",
+    // borderRadius: "8px",
+    // boxShadow: "0 0 10px rgba(0, 0, 0, 0.1)",
   },
   heading: {
     textAlign: "center",

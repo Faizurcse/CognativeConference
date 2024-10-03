@@ -11,10 +11,13 @@ import AiinIndustry from "./components/UpcommingConferences/AI-in-Industry-4.0/I
 import CancellationPolicy from "./components/Footer/CancellationPolicy.jsx";
 import TermsandConditions from "./components/Footer/TermsandConditions.jsx";
 import PrivacyPolicy from "./components/Footer/PrivacyPolicy.jsx";
+import ScrollOnTop from "./components/ScrollOnTop.jsx";
+import DownloadBroucher from "./components/AllButtonsPages/BroucherDownload.jsx"
 function App() {
   
   return (
     <Router>
+      <ScrollOnTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -26,6 +29,7 @@ function App() {
          <Route path="/cancellation-policy" element={<CancellationPolicy/>}/>
          <Route path="/terms-and-Conditions" element={<TermsandConditions/>}/>
          <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+         <Route path="/artificial-intelligence/artificial-intelligence-download-broucher/" element={<DownloadBroucher/>}/>
       </Routes>
     </Router>
   )
