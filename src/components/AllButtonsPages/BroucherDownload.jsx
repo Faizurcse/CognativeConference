@@ -62,10 +62,10 @@ const BroucherDownload = () => {
 const styles = {
   heroContainer: {
     position: "relative",
-    height: "22vh",
+    height: "50vh",
     backgroundImage:
-      "url('/BroucherImg.jpeg')",
-    // backgroundSize: "contain",
+      "url('/Broucher.png')",
+    backgroundSize: "cover",
     backgroundPosition: "center",
   },
   overlay: {
@@ -74,7 +74,7 @@ const styles = {
     left: 0,
     right: 0,
     bottom: 0,
-    backgroundColor: "rgba(35, 34, 34, 0.749)",
+   backgroundColor: "rgba(0, 0, 0, 0.5)",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -97,7 +97,7 @@ const styles = {
     padding: "30px",
     borderRadius: "8px",
     width: "90%",
-    maxWidth: "500px",
+    maxWidth: "800px",
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
     textAlign: "center",
   },

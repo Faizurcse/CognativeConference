@@ -15,7 +15,7 @@ function AboutComponents2() {
         </div>
         <div className="flexColStart About-2-v-right">
           <span className="orangeText">Exhibitions and Demos</span>
-          <span className="primaryText">About Cognitive tech Summit</span>
+          <span className="primaryText About-heading">About Cognitive tech Summit</span>
           <p className="secondaryText-2 about-2-LineHeight">
             The Cognitive Tech Summit is an event dedicated to exploring the
             latest advancements and applications of cognitive technologies,

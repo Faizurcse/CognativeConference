@@ -13,6 +13,9 @@ import TermsandConditions from "./components/Footer/TermsandConditions.jsx";
 import PrivacyPolicy from "./components/Footer/PrivacyPolicy.jsx";
 import ScrollOnTop from "./components/ScrollOnTop.jsx";
 import DownloadBroucher from "./components/AllButtonsPages/BroucherDownload.jsx"
+import AbstractSubmission from "./components/AllButtonsPages/AbstractTamplate.jsx"
+import SpeakerGuidelines from "./components/AllButtonsPages/SpeakerGuidelines.jsx";
+import RegisterNow from "./components/AllButtonsPages/RegisterNow.jsx"
 function App() {
   
   return (
@@ -30,6 +33,10 @@ function App() {
          <Route path="/terms-and-Conditions" element={<TermsandConditions/>}/>
          <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
          <Route path="/artificial-intelligence/artificial-intelligence-download-broucher/" element={<DownloadBroucher/>}/>
+         <Route path="/artificial-intelligence/artificial-intelligence-abstract-submission/" element={<AbstractSubmission/>}/>
+         <Route path="/artificial-intelligence/artificial-intelligence-speaker-guidelines/" element={<SpeakerGuidelines/>}/>
+         <Route path="/artificial-intelligence/artificial-intelligence-register-now/" element={<RegisterNow/>}/>
+
       </Routes>
     </Router>
   )

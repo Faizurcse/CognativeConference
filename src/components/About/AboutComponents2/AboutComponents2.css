@@ -1,3 +1,6 @@
+.About-2-v-warpper{
+    background: var(--black);
+}
 .About-2-v-container .About-2-image-container{
     width:35rem;
     height:35rem;
@@ -6,7 +9,7 @@
     border: 8px solid rgba(255,255,255,0.12);
     margin: 1rem;
     box-sizing: border-box;
-    box-shadow: 2px 2px 22px 10px rgba(121, 140, 218, 0.242);
+    box-shadow: 2px 2px 22px 10px rgba(121, 140, 218, 0.082);
     object-fit: cover 5px;
 }
 
@@ -29,5 +32,10 @@
 }
 
 .about-2-LineHeight{
+    color: aliceblue;
     line-height:1.8;
+    /* text-align: justify; */
+}
+.About-heading{
+    color: aliceblue;
 }

@@ -86,16 +86,21 @@ function AIHero() {
           </div>
 
           <div className="ai-abstract-cards ai-card">
+            <Link to="/artificial-intelligence/artificial-intelligence-abstract-submission/">
             <button className="ai-button">Abstract Submission</button>
+            </Link>
           </div>
 
           <div className="ai-register-cards ai-card">
+            <Link to="/artificial-intelligence/artificial-intelligence-register-now/">
             <button className="ai-button ai-register">Register Now</button>
+            </Link>
           </div>
 
           <div className="ai-speaker-cards ai-card">
-            
+            <Link to="/artificial-intelligence/artificial-intelligence-speaker-guidelines/">
               <button className="ai-button">Speaker Guidelines</button>
+            </Link>
           </div>
         </div>
       </div>
