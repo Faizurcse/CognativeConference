@@ -28,7 +28,7 @@ const forums = [
   { name: "Training Programs", icon: <FaClipboardList /> },
 ];
 
-function AbstractTemplate() {
+function AbstractTemplate({Props2}) {
   return (
     <div>
       <div style={{ backgroundColor: "var(--black)" }}>
@@ -39,7 +39,7 @@ function AbstractTemplate() {
         <div style={styles.overlay}>
           <div style={styles.textContainer}>
             <h1 style={styles.heading}>
-              Artificial Intelligence Abstract Submission Form
+             {Props2}
             </h1>
             <p style={styles.subHeading}>Abstract Template</p>
             <a

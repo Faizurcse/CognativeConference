@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Header/Header.jsx";
 import Footer from "../Footer/Footer.jsx";
 
-function SpeakerGuidelines() {
+function SpeakerGuidelines({Props3}) {
   return (
     <div>
       <div style={{ backgroundColor: "var(--black)" }}>
@@ -12,7 +12,7 @@ function SpeakerGuidelines() {
       <div style={styles.heroContainer}>
         <div style={styles.overlay}>
           <div style={styles.textContainer}>
-            <h1 style={styles.heading}>Speaker Guidelines</h1>
+            <h1 style={styles.heading}>{Props3}</h1>
           </div>
         </div>
       </div>

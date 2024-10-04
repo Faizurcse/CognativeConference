@@ -32,10 +32,28 @@ function App() {
          <Route path="/cancellation-policy" element={<CancellationPolicy/>}/>
          <Route path="/terms-and-Conditions" element={<TermsandConditions/>}/>
          <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
-         <Route path="/artificial-intelligence/artificial-intelligence-download-broucher/" element={<DownloadBroucher/>}/>
-         <Route path="/artificial-intelligence/artificial-intelligence-abstract-submission/" element={<AbstractSubmission/>}/>
-         <Route path="/artificial-intelligence/artificial-intelligence-speaker-guidelines/" element={<SpeakerGuidelines/>}/>
+         {/* AI */}
+         <Route path="/artificial-intelligence/artificial-intelligence-download-broucher/" element={<DownloadBroucher Props1={"Artificial Intelligence Brochure Download"}/>}/>
+         <Route path="/artificial-intelligence/artificial-intelligence-abstract-submission/" element={<AbstractSubmission  Props2={"Artificial Intelligence Abstract Submission Form"}/>}/>
+         <Route path="/artificial-intelligence/artificial-intelligence-speaker-guidelines/" element={<SpeakerGuidelines Props3={"Speaker Guidelines"}/>}/>
          <Route path="/artificial-intelligence/artificial-intelligence-register-now/" element={<RegisterNow/>}/>
+        {/* Cyber security */}
+         <Route path="/cyber-security/cyber-security-download-broucher/" element={<DownloadBroucher Props1={"AI Cyber Security Brochure Download"}/>}/>
+         <Route path="/cyber-security/cyber-security-abstract-submission/" element={<AbstractSubmission  Props2={"AI Cyber Security Abstract Submission Form"}/>}/>
+         <Route path="/cyber-security/cyber-security-speaker-guidelines/" element={<SpeakerGuidelines Props3={"Speaker Guidelines"}/>}/>
+         <Route path="/cyber-security/cyber-security-register-now/" element={<RegisterNow/>}/>
+
+         {/* Generative AI */}
+         <Route path="/generative-ai/generative-ai-download-broucher/" element={<DownloadBroucher Props1={"Generative AI Brochure Download"}/>}/>
+         <Route path="/generative-ai/generative-ai-abstract-submission/" element={<AbstractSubmission  Props2={"Generative AI Abstract Submission Form"}/>}/>
+         <Route path="/generative-ai/generative-ai-speaker-guidelines/" element={<SpeakerGuidelines Props3={"Speaker Guidelines"}/>}/>
+         <Route path="/generative-ai/generative-ai-register-now/" element={<RegisterNow/>}/>
+
+         {/*AI Industry*/}
+         <Route path="/ai-in-Industry/ai-in-Industry-download-broucher/" element={<DownloadBroucher Props1={"AI Industry 4.0 Brochure Download"}/>}/>
+         <Route path="/ai-in-Industry/ai-in-Industry-abstract-submission/" element={<AbstractSubmission  Props2={"AI Industry 4.0 Abstract Submission Form"}/>}/>
+         <Route path="/ai-in-Industry/ai-in-Industry-speaker-guidelines/" element={<SpeakerGuidelines Props3={"Speaker Guidelines"}/>}/>
+         <Route path="/ai-in-Industry/ai-in-Industry-register-now/" element={<RegisterNow/>}/>
 
       </Routes>
     </Router>

@@ -50,7 +50,7 @@ function Footer() {
           <div className="flexCenter menu-items">
             <span>Home</span>
             <span>About Us</span>
-            <span>Upcoming Conferences</span>
+            <span>Contact Us</span>
           </div>
         </div>
       </div>

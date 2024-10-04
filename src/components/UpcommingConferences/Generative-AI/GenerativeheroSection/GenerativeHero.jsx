@@ -6,6 +6,7 @@ import {
   FaFileAlt,
   FaRegClock,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function GenerativeHero() {
   return (
@@ -78,19 +79,27 @@ function GenerativeHero() {
 
         <div className="ai-buttons-container">
           <div className="ai-boucher-cards ai-card">
+            <Link to="/generative-ai/generative-ai-download-broucher/">
             <button className="ai-button">Download Brochure</button>
+            </Link>
           </div>
 
           <div className="ai-abstract-cards ai-card">
+            <Link to="/generative-ai/generative-ai-abstract-submission/">
             <button className="ai-button">Abstract Submission</button>
+            </Link>
           </div>
 
           <div className="ai-register-cards ai-card">
+            <Link to="/generative-ai/generative-ai-register-now/">
             <button className="ai-button ai-register">Register Now</button>
+            </Link>
           </div>
 
           <div className="ai-speaker-cards ai-card">
+          <Link to="/generative-ai/generative-ai-speaker-guidelines/">
             <button className="ai-button">Speaker Guidelines</button>
+          </Link>
           </div>
         </div>
       </div>

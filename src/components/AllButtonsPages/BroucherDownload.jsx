@@ -4,7 +4,7 @@ import Footer from "../Footer/Footer.jsx";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
-const BroucherDownload = () => {
+const BroucherDownload = ({Props1}) => {
   return (
     <div>
       <div style={{ backgroundColor: "var(--black)" }}>
@@ -14,7 +14,7 @@ const BroucherDownload = () => {
       <div style={styles.heroContainer}>
         <div style={styles.overlay}>
           <div style={styles.heroContent}>
-            <h1 style={styles.heroTitle}>Artificial Intelligence Brochure Download</h1>
+            <h1 style={styles.heroTitle}>{Props1}</h1>
           </div>
         </div>
       </div>
