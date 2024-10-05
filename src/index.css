@@ -73,14 +73,15 @@ a {
 }
 .primaryText-2 {
   color: #1f3e72;
-  font-weight: bold;
-  font-size:1;
+  font-weight: bolder;
+  font-size:1rem;
 }
 
 
 .secondaryText {
   color: rgb(140 139 139);
   font-size: 0.9rem;
+  text-align: justify;
 }
 .orangeText {
   color: orange;
@@ -146,4 +147,6 @@ a {
   .orangeText {
     font-size: 1.2rem;
   }
+
+  
 }

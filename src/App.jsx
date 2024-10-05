@@ -16,6 +16,8 @@ import DownloadBroucher from "./components/AllButtonsPages/BroucherDownload.jsx"
 import AbstractSubmission from "./components/AllButtonsPages/AbstractTamplate.jsx"
 import SpeakerGuidelines from "./components/AllButtonsPages/SpeakerGuidelines.jsx";
 import RegisterNow from "./components/AllButtonsPages/RegisterNow.jsx"
+import AiView from "./components/ViewAllSSButtons/AIvssb/Aivssb.jsx"
+import Cybervssb from "./components/ViewAllSSButtons/Cybervssb/Cybervssb.jsx"
 function App() {
   
   return (
@@ -55,6 +57,9 @@ function App() {
          <Route path="/ai-in-Industry/ai-in-Industry-speaker-guidelines/" element={<SpeakerGuidelines Props3={"Speaker Guidelines"}/>}/>
          <Route path="/ai-in-Industry/ai-in-Industry-register-now/" element={<RegisterNow/>}/>
 
+         {/* All-Views */}
+         <Route path="/artificial-intelligence/artificial-intelligence-scientific-sessions/" element={<AiView/>}/>
+         <Route path="/cyber-security/cyber-security-scientific-sessions/" element={<Cybervssb/>}/>
       </Routes>
     </Router>
   )

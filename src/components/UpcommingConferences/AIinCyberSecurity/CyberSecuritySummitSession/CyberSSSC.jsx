@@ -13,6 +13,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 import "./CyberSSSC.css";
 import CyberData1 from "./CyberData1.jsx";
 import CyberData2 from "./CyberData2.jsx";
+import { Link } from "react-router-dom";
 
 function CyberSSSC() {
   return (
@@ -104,8 +105,9 @@ function CyberSSSC() {
         </div>
       </div>
       <div className="paddings innerWidth flexCenter ss-btn-container">
-
+<Link to="/cyber-security/cyber-security-scientific-sessions/">
       <button className="button ss-btn-padding">View All Scientific Session</button>
+</Link>
       </div>
     </section>
   );
