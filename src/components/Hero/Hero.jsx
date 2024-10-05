@@ -18,8 +18,8 @@ function Hero() {
             </motion.h1>
           </div>
           <div className="flexColStart hero-des">
-            <span className="secondaryText">Theme : Empowering Minds :</span>
-            <span className="secondaryText">
+            <span className="secondaryText-2" >Theme<span style={{color:'orange' , fontSize:'1rem'}}> : </span>Empowering Minds</span>
+            <span className="secondaryText-2" >
               The Evolution of Cognitive Technologies in Shaping the Future
             </span>
           </div>

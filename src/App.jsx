@@ -18,6 +18,8 @@ import SpeakerGuidelines from "./components/AllButtonsPages/SpeakerGuidelines.js
 import RegisterNow from "./components/AllButtonsPages/RegisterNow.jsx"
 import AiView from "./components/ViewAllSSButtons/AIvssb/Aivssb.jsx"
 import Cybervssb from "./components/ViewAllSSButtons/Cybervssb/Cybervssb.jsx"
+import Generativevssb from "./components/ViewAllSSButtons/GenerativeVssb/Generativevssb.jsx"
+import Industryvvssb from "./components/ViewAllSSButtons/Industryvssb/Industryvssb.jsx"
 function App() {
   
   return (
@@ -60,6 +62,8 @@ function App() {
          {/* All-Views */}
          <Route path="/artificial-intelligence/artificial-intelligence-scientific-sessions/" element={<AiView/>}/>
          <Route path="/cyber-security/cyber-security-scientific-sessions/" element={<Cybervssb/>}/>
+         <Route path="/generative-ai/generative-ai-scientific-sessions/" element={<Generativevssb/>}/>
+         <Route path="/ai-in-Industry/ai-in-Industry-scientific-sessions/" element={<Industryvvssb/>}/>
       </Routes>
     </Router>
   )

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../../Header/Header.jsx";
 import Footer from "../../Footer/Footer.jsx";
-import "./Aivssb.css";
+import "./Industryvssb.css";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -13,94 +13,149 @@ import {
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
+
 import {
-  AiOutlineCloud,
-  AiOutlineRobot,
-  AiOutlineDatabase,
-  AiOutlineLineChart,
-  AiOutlineHeart,
-  AiOutlineAppstore,
-  AiOutlineStock,
-  AiOutlineBank,
-  AiOutlineUser,
-  AiOutlineCloudServer,
-  AiOutlineRise,
-  AiOutlineSetting,
-} from "react-icons/ai";
+  FaIndustry,
+  FaTools,
+  FaRobot,
+  FaCheckCircle,
+  FaShippingFast,
+  FaDigitalTachograph,
+  FaNetworkWired,
+  FaWarehouse,
+  FaProjectDiagram,
+  FaCogs,
+  FaMicrochip,
+  FaLightbulb,
+  FaBatteryThreeQuarters,
+  FaClipboardList,
+  FaShieldAlt,
+  FaRoute,
+  FaSolarPanel,
+  FaRegHandPeace,
+} from "react-icons/fa";
 
 function Aivssb() {
-  const aiviewsessions = [
+  const topics = [
     {
-      title: "AI & Big Data",
-      icon: <AiOutlineCloud />,
-      content:
-        "Explore how AI and Big Data are reshaping industries by enabling machines to simulate human intelligence. These transformative technologies optimize operations and drive innovation in sectors like healthcare and finance. By analyzing vast amounts of data, organizations can identify trends, enhance decision-making, and improve customer experiences. AI and Big Data work together to create smarter solutions, making businesses more efficient and competitive.",
+      title: "Smart Manufacturing Systems",
+      description:
+        "Discover how Smart Manufacturing Systems (SMS) revolutionize Industry 4.0 with IoT, AI, and big data analytics. Optimize production processes, reduce downtime, and enable predictive maintenance for enhanced efficiency and sustainability.",
+      icon: <FaIndustry />,
     },
     {
-      title: "AI & Robotics",
-      icon: <AiOutlineRobot />,
-      content:
-        "Explore the intersection of AI and Robotics, driving innovation in automation. Discover how AI equips robots with cognitive abilities and how Robotics creates machines capable of interacting with the world. This fusion allows for greater precision in tasks and reduces human error. Together, they enhance productivity across various sectors, paving the way for smarter manufacturing and service delivery.",
+      title: "Predictive Maintenance AI",
+      description:
+        "Drive reliability and productivity in industrial operations with Predictive Maintenance AI. Our platform leverages artificial intelligence and machine learning algorithms to predict equipment failures, enabling timely interventions and extending machinery lifespan.",
+      icon: <FaTools />,
     },
     {
-      title: "Data Science",
-      icon: <AiOutlineDatabase />,
-      content:
-        "Unlock the power of data with our comprehensive data science website. Discover how data scientists use statistics and machine learning to extract insights and drive innovation across various industries. Data science encompasses data collection, analysis, and interpretation, leading to actionable strategies. By leveraging big data, organizations can stay ahead of the competition and meet evolving consumer demands.",
+      title: "Industrial Robotics Automation",
+      description:
+        "Drive reliability and productivity in industrial operations with Predictive Maintenance AI. Our platform leverages artificial intelligence and machine learning algorithms to predict equipment failures, enabling timely interventions and extending machinery lifespan.",
+      icon: <FaRobot />,
     },
     {
-      title: "Deep Learning",
-      icon: <AiOutlineLineChart />,
-      content:
-        "Explore the transformative power of deep learning with our website. Discover how artificial neural networks are revolutionizing industries and driving advancements in various fields. Deep learning mimics human brain function, enabling machines to learn from vast datasets. This technology is critical in applications like image recognition, natural language processing, and autonomous systems.",
+      title: "AI-driven Quality Control",
+      description:
+        "Monitor and enhance product quality with AI-driven Quality Control. Our technology analyzes data from sensors, cameras, and historical records to detect defects and anomalies, ensuring high standards and minimizing human error.",
+      icon: <FaCheckCircle />,
     },
     {
-      title: "Data Analytics",
-      icon: <AiOutlineDatabase />,
-      content:
-        "Discover the power of data analytics with our website. Uncover patterns and insights to make informed decisions and enhance efficiency across various domains. Data analytics transforms raw data into meaningful information, helping organizations optimize performance. By using data-driven approaches, businesses can improve strategies, reduce costs, and boost productivity.",
+      title: "Supply Chain Optimization",
+      description:
+        "Improve supply chain efficiency with Supply Chain Optimization. Leveraging advanced technologies and algorithms, it ensures timely delivery of products, reduces costs, minimizes waste, and enhances collaboration across the supply chain for better decision-making and agility in response to market changes.",
+      icon: <FaShippingFast />,
     },
     {
-      title: "Artificial Intelligence in Healthcare",
-      icon: <AiOutlineHeart />,
-      content:
-        "Discover how AI in healthcare revolutionizes patient care and diagnostics. Enhance diagnostic accuracy and personalize treatment plans with data-driven insights for better outcomes. AI tools assist in analyzing patient data, predicting diseases, and improving clinical workflows. This technology not only aids healthcare professionals but also enhances patient experiences and outcomes.",
+      title: "Digital Twin Technology",
+      description:
+        "Discover how Digital Twin Technology revolutionizes industries like manufacturing, healthcare, and smart cities by providing accurate, dynamic models for monitoring, testing, and maintenance. Make informed decisions and improve performance with virtual replicas and predictive capabilities.",
+      icon: <FaDigitalTachograph />,
     },
     {
-      title: "Internet of Things (IoT)",
-      icon: <AiOutlineAppstore />,
-      content:
-        "Dive into the realm of IoT on our website, where you can learn about interconnected devices. Explore how IoT is driving innovation and improving quality of life in various sectors. IoT connects devices, enabling them to communicate and share data, leading to smarter homes and cities. The implications of IoT extend to industries like agriculture, transportation, and healthcare, enhancing efficiency and sustainability.",
+      title: "IoT-Enabled AI",
+      description:
+        "Explore the power of IoT-Enabled AI! Connect IoT devices with artificial intelligence for real-time data collection and analysis. Revolutionize industries with smart, connected systems.",
+      icon: <FaNetworkWired />,
     },
     {
-      title: "AI Finance",
-      icon: <AiOutlineBank />,
-      content:
-        "Discover how AI in finance reshapes the industry with advanced algorithms and data analytics. From predictive analytics to personalized services, explore the future of finance. AI enhances risk assessment and fraud detection, ensuring safer financial transactions. As AI continues to evolve, it is expected to streamline operations and improve customer interactions significantly.",
+      title: "AI in Logistics",
+      description:
+        "AI in Logistics leverages artificial intelligence to streamline processes, minimize delays, and enhance overall supply chain performance. Learn how machine learning algorithms and data analytics optimize route planning, demand forecasting, and inventory management.",
+      icon: <FaRoute />,
     },
     {
-      title: "Human Robotics",
-      icon: <AiOutlineUser />,
-      content:
-        "Explore the dynamic relationship between humans and robots. We cover the collaboration and communication enhancing cooperation in industrial and healthcare settings. Human-robot interaction is crucial for improving productivity and safety in workplaces. Understanding this relationship can lead to better-designed robots that effectively support human activities.",
+      title: "Intelligent Production Planning",
+      description:
+        "Drive competitive advantage in manufacturing with Intelligent Production Planning. Utilize AI and advanced algorithms to optimize processes, reduce lead times, and minimize waste for improved flexibility, responsiveness, and product quality.",
+      icon: <FaProjectDiagram />,
     },
     {
-      title: "Cloud Robotics",
-      icon: <AiOutlineCloudServer />,
-      content:
-        "Explore the future of robotics with cloud robotics technology. Enhance robot capabilities and overcome challenges for broader adoption across various industries. By leveraging cloud computing, robots can access vast data resources and improve their learning processes. This technology enables real-time collaboration between robots, leading to enhanced performance and efficiency.",
+      title: "Factory Floor Automation",
+      description:
+        "Improve manufacturing efficiency with Factory Floor Automation. Utilizing robotics, IoT, and AI, automated systems streamline processes, reduce human error, and increase productivity. Stay agile and responsive to market demands with advanced automation technologies.",
+      icon: <FaCogs />,
     },
     {
-      title: "Advancements in Deep Learning Architectures",
-      icon: <AiOutlineRise />,
-      content:
-        "Explore the latest advancements in deep learning architectures for AI. From CNNs to RNNs and Transformer models, discover how these innovations are reshaping image processing and more. Understanding these architectures is essential for developing robust AI solutions. As research progresses, the applications of deep learning continue to expand across various domains.",
+      title: "AI-based Process Optimization",
+      description:
+        "AI-based Process Optimization utilizes artificial intelligence to analyze and improve operational processes. It empowers organizations to adapt swiftly to market changes and continuously refine their operations for sustained competitive advantage.",
+      icon: <FaMicrochip />,
     },
     {
-      title: "Role of AI & Robotics in Industry & Business",
-      icon: <AiOutlineSetting />,
-      content:
-        "Discover how AI and Robotics revolutionize industries with precision and efficiency. From manufacturing to healthcare, automation drives growth and competitiveness. The integration of AI and Robotics optimizes workflows and reduces operational costs. As industries adapt to these technologies, they can respond more quickly to market changes and enhance customer satisfaction.",
+      title: "Cyber-Physical Systems",
+      description:
+        "Learn how Cyber-Physical Systems (CPS) combine sensors, actuators, and networking capabilities with advanced computing to optimize processes, enhance efficiency, and improve safety in various sectors.",
+      icon: <FaLightbulb />,
+    },
+    {
+      title: "Smart Grid Systems",
+      description:
+        "Explore the world of Smart Grid Systems, where cutting-edge digital technologies revolutionize energy management. From IoT to sensors and communication networks, witness the integration of renewable energy sources, energy storage systems, and electric vehicles for a more reliable and efficient grid.",
+      icon: <FaBatteryThreeQuarters />,
+    },
+    {
+      title: "AI-powered Resource Management",
+      description:
+        "Discover how AI-powered Resource Management optimizes resource allocation and utilization across various domains using real-time data analysis and predictive AI models. Improve decision-making accuracy, reduce costs, and enhance productivity while supporting sustainability goals.",
+      icon: <FaClipboardList />,
+    },
+    {
+      title: "Industrial Data Analytics",
+      description:
+        "Dive into the world of Industrial Data Analytics to uncover valuable insights, predict equipment failures, and optimize manufacturing processes. Make informed decisions, reduce costs, and stay ahead in the digital age.",
+      icon: <FaShieldAlt />,
+    },
+    {
+      title: "Autonomous Material Handling",
+      description:
+        "Explore the benefits of Autonomous Material Handling in modern smart factories and warehouses. Automate movement and management of materials with AI and IoT technologies.",
+      icon: <FaWarehouse />,
+    },
+    {
+      title: "Energy Efficiency AI",
+      description:
+        "Energy Efficiency AI utilizes artificial intelligence to optimize energy consumption by analyzing sensor data and historical usage patterns. Enhance building management, industrial processes, and transportation networks for cost savings, environmental sustainability, and regulatory compliance.",
+      icon: <FaSolarPanel />,
+    },
+    {
+      title: "AI-driven Workflow Automation",
+      description:
+        "Revolutionize your business with AI-driven Workflow Automation. Streamline processes, reduce errors, and boost efficiency with intelligent automation technology.",
+      icon: <FaRegHandPeace />,
+    },
+    {
+      title: "Industrial Safety Enhancements",
+      description:
+        "Enhance industrial safety with AI, IoT, and robotics technologies. Real-time data analysis, environmental monitoring, and robotic assistance reduce risks and ensure compliance. Prioritize worker well-being for a secure and efficient work environment.",
+      icon: <FaShieldAlt />,
+    },
+    {
+      title: "AI in Logistics",
+      description:
+        "Discover how AI in logistics uses machine learning and data analytics to optimize supply chain management and transportation. Real-time tracking, predictive maintenance, and efficient warehouse operations enhance decision-making and reduce costs.",
+      icon: <FaShippingFast />,
     },
   ];
 
@@ -113,7 +168,7 @@ function Aivssb() {
       <div className="ai-view-hero-section">
         <div className="ai-view-hero-text">
           <h1 className="ai-view-hero-heading">
-            Artificial Intelligence Scientific Sessions
+            AI In Industry Scientific Sessions
           </h1>
           <p className="ai-view-hero-paragraph">
             Join cutting-edge Artificial Intelligence Scientific Sessions to
@@ -125,13 +180,13 @@ function Aivssb() {
             conferences.
           </p>
           <div className="ai-view-buttons">
-            <Link to="/artificial-intelligence/artificial-intelligence-download-broucher/">
+            <Link to="/ai-in-Industry/ai-in-Industry-download-broucher/">
               <button className="ai-view-button">Brochure Download</button>
             </Link>
-            <Link to="/artificial-intelligence/artificial-intelligence-abstract-submission/">
+            <Link to="/ai-in-Industry/ai-in-Industry-abstract-submission/">
               <button className="ai-view-button">Abstract Submission</button>
             </Link>
-            <Link to="/artificial-intelligence/artificial-intelligence-register-now/">
+            <Link to="/ai-in-Industry/ai-in-Industry-register-now/">
               <button className="ai-view-button ai-view-goto-regs">
                 Go To Registration
               </button>
@@ -152,7 +207,7 @@ function Aivssb() {
               allowMultipleExpanded={false}
               preExpanded={[0]}
             >
-              {aiviewsessions.map((item, i) => {
+              {topics.map((item, i) => {
                 const [className, setClassName] = useState(null);
                 return (
                   <AccordionItem
@@ -177,7 +232,7 @@ function Aivssb() {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p className="secondaryText">{item.content}</p>
+                      <p className="secondaryText">{item.description}</p>
                     </AccordionItemPanel>
                   </AccordionItem>
                 );

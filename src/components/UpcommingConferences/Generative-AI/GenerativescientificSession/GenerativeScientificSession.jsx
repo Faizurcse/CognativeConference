@@ -13,6 +13,7 @@ import { MdOutlineArrowDropDown } from "react-icons/md";
 import "./GenaertiveScientific.css";
 import GenerativeData1 from "./GenertaiveData1.jsx";
 import GenerativeData2  from "./GenertaiveData2.jsx";
+import { Link } from "react-router-dom";
 
 function ScientificSession() {
   return (
@@ -104,8 +105,9 @@ function ScientificSession() {
         </div>
       </div>
       <div className="paddings innerWidth flexCenter ss-btn-container">
-
+<Link to="/generative-ai/generative-ai-scientific-sessions/">
       <button className="button ss-btn-padding">View All Scientific Session</button>
+</Link>
       </div>
     </section>
   );

@@ -1,15 +1,16 @@
 .hero-wrapper{
+    /* position: absolute;
+    z-index: 1; */
+    background: var(--black);
     color: white;
-    position: relative;
     padding: 2rem;
-    z-index: 1;
-    /* background: var(--black); */
+   margin-top:5rem;
 }
 
 .hero-container{
     justify-content: space-around;
     align-items: flex-end;
-    margin-top: -2.5rem;
+    margin-top: -2rem;
 }
 /* left side */
 .hero-left{
@@ -85,7 +86,7 @@ font-size: 2rem;
 
 @media(max-width:640px){
     .hero-container{
-        margin-top: auto;
+        margin-top:3rem;
     }
     .hero-left{
         /* gap: 1rem; */

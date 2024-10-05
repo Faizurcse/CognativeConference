@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../../Header/Header.jsx";
 import Footer from "../../Footer/Footer.jsx";
-import "./Aivssb.css";
+import "./Generativevssb.css";
 import { Link } from "react-router-dom";
 import {
   Accordion,
@@ -14,93 +14,93 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
 import {
-  AiOutlineCloud,
-  AiOutlineRobot,
-  AiOutlineDatabase,
-  AiOutlineLineChart,
-  AiOutlineHeart,
-  AiOutlineAppstore,
-  AiOutlineStock,
-  AiOutlineBank,
-  AiOutlineUser,
-  AiOutlineCloudServer,
-  AiOutlineRise,
-  AiOutlineSetting,
-} from "react-icons/ai";
+  FaNetworkWired,
+  FaEdit,
+  FaBrain,
+  FaArtstation,
+  FaCogs,
+  FaCube,
+  FaBookOpen,
+  FaComment,
+  FaPalette,
+  FaFilm,
+  FaShieldAlt,
+  FaDatabase 
+} from "react-icons/fa";
 
 function Aivssb() {
-  const aiviewsessions = [
+  const sessions = [
     {
-      title: "AI & Big Data",
-      icon: <AiOutlineCloud />,
-      content:
-        "Explore how AI and Big Data are reshaping industries by enabling machines to simulate human intelligence. These transformative technologies optimize operations and drive innovation in sectors like healthcare and finance. By analyzing vast amounts of data, organizations can identify trends, enhance decision-making, and improve customer experiences. AI and Big Data work together to create smarter solutions, making businesses more efficient and competitive.",
+      title: "Generative Adversarial Networks",
+      description:
+        "Explore the world of Generative Adversarial Networks (GANs) – deep learning frameworks where two neural networks compete to create realistic synthetic data instances. Learn about image synthesis, video generation, and more!",
+      icon: <FaNetworkWired />, // Replace with actual icon
     },
     {
-      title: "AI & Robotics",
-      icon: <AiOutlineRobot />,
-      content:
-        "Explore the intersection of AI and Robotics, driving innovation in automation. Discover how AI equips robots with cognitive abilities and how Robotics creates machines capable of interacting with the world. This fusion allows for greater precision in tasks and reduces human error. Together, they enhance productivity across various sectors, paving the way for smarter manufacturing and service delivery.",
+      title: "AI-driven Content Creation",
+      description:
+        "The Cognitivetech Summit 2025 was a resounding success, bringing together over 500 attendees from around the globe to explore the latest advancements in cognitive technology. Held in San Francisco, the event featured three stages packed with insightful presentations, panel discussions, and interactive sessions led by industry experts.",
+      icon: <FaEdit />, // Replace with actual icon
     },
     {
-      title: "Data Science",
-      icon: <AiOutlineDatabase />,
-      content:
-        "Unlock the power of data with our comprehensive data science website. Discover how data scientists use statistics and machine learning to extract insights and drive innovation across various industries. Data science encompasses data collection, analysis, and interpretation, leading to actionable strategies. By leveraging big data, organizations can stay ahead of the competition and meet evolving consumer demands.",
+      title: "Next Generation Models",
+      description:
+        "Explore the world of text generation models, from rule-based systems to advanced deep learning models like RNNs, transformers, and GPT variants. Discover how these AI algorithms are transforming information processing and communication in diverse fields.",
+      icon: <FaBrain />, // Replace with actual icon
     },
     {
-      title: "Deep Learning",
-      icon: <AiOutlineLineChart />,
-      content:
-        "Explore the transformative power of deep learning with our website. Discover how artificial neural networks are revolutionizing industries and driving advancements in various fields. Deep learning mimics human brain function, enabling machines to learn from vast datasets. This technology is critical in applications like image recognition, natural language processing, and autonomous systems.",
+      title: "Creative AI Applications",
+      description:
+        "Explore the intersection of art and technology with Creative AI applications. From realistic visual images to AI-generated music and storytelling, discover how AI is reshaping creativity and design.",
+      icon: <FaArtstation />, // Replace with actual icon
     },
     {
-      title: "Data Analytics",
-      icon: <AiOutlineDatabase />,
-      content:
-        "Discover the power of data analytics with our website. Uncover patterns and insights to make informed decisions and enhance efficiency across various domains. Data analytics transforms raw data into meaningful information, helping organizations optimize performance. By using data-driven approaches, businesses can improve strategies, reduce costs, and boost productivity.",
+      title: "Generative Model Training",
+      description:
+        "Train AI models like GANs and VAEs to generate new data resembling training data. GANs use a generator and discriminator, while VAEs encode and decode data for high-quality outputs.",
+      icon: <FaCogs />, // Replace with actual icon
     },
     {
-      title: "Artificial Intelligence in Healthcare",
-      icon: <AiOutlineHeart />,
-      content:
-        "Discover how AI in healthcare revolutionizes patient care and diagnostics. Enhance diagnostic accuracy and personalize treatment plans with data-driven insights for better outcomes. AI tools assist in analyzing patient data, predicting diseases, and improving clinical workflows. This technology not only aids healthcare professionals but also enhances patient experiences and outcomes.",
+      title: "3D Model Generation",
+      description:
+        "Explore the world of 3D model generation for architecture, gaming, VR, and more. Learn about manual modeling, 3D scanning, AI algorithms, and advanced techniques. Enhance visual simulations and product design with realistic and complex 3D models.",
+      icon: <FaCube />, // Replace with actual icon
     },
     {
-      title: "Internet of Things (IoT)",
-      icon: <AiOutlineAppstore />,
-      content:
-        "Dive into the realm of IoT on our website, where you can learn about interconnected devices. Explore how IoT is driving innovation and improving quality of life in various sectors. IoT connects devices, enabling them to communicate and share data, leading to smarter homes and cities. The implications of IoT extend to industries like agriculture, transportation, and healthcare, enhancing efficiency and sustainability.",
+      title: "Story Generation AI",
+      description:
+        "Explore the world of Story Generation AI – creating engaging narratives autonomously or with human input. Learn about NLP, deep learning, and applications in entertainment, education, marketing, and interactive media.",
+      icon: <FaBookOpen />, // Replace with actual icon
     },
     {
-      title: "AI Finance",
-      icon: <AiOutlineBank />,
-      content:
-        "Discover how AI in finance reshapes the industry with advanced algorithms and data analytics. From predictive analytics to personalized services, explore the future of finance. AI enhances risk assessment and fraud detection, ensuring safer financial transactions. As AI continues to evolve, it is expected to streamline operations and improve customer interactions significantly.",
+      title: "Language Model Advances",
+      description:
+        "Learn about the transformative impact of language model advances on natural language processing (NLP), including the latest innovations in transformer architectures like GPT models. Discover how these advancements are driving new capabilities and efficiencies in language-based interactions across digital platforms.",
+      icon: <FaComment />, // Replace with actual icon
     },
     {
-      title: "Human Robotics",
-      icon: <AiOutlineUser />,
-      content:
-        "Explore the dynamic relationship between humans and robots. We cover the collaboration and communication enhancing cooperation in industrial and healthcare settings. Human-robot interaction is crucial for improving productivity and safety in workplaces. Understanding this relationship can lead to better-designed robots that effectively support human activities.",
+      title: "Generative Art Algorithms",
+      description:
+        "Explore the world of generative art algorithms that create autonomous artworks using computational methods. From simple procedural rules to complex AI-driven systems, these algorithms generate visuals, music, and literature by following predefined instructions or learning patterns from datasets. Discover how techniques like genetic algorithms, neural networks, and GANs challenge traditional notions of creativity and push the boundaries of artistic creation in the digital age.",
+      icon: <FaPalette />, // Replace with actual icon
     },
     {
-      title: "Cloud Robotics",
-      icon: <AiOutlineCloudServer />,
-      content:
-        "Explore the future of robotics with cloud robotics technology. Enhance robot capabilities and overcome challenges for broader adoption across various industries. By leveraging cloud computing, robots can access vast data resources and improve their learning processes. This technology enables real-time collaboration between robots, leading to enhanced performance and efficiency.",
+      title: "Visual Content Synthesis",
+      description:
+        "Explore the world of visual content synthesis with algorithms and AI techniques. Enhance creativity and productivity in digital art, graphic design, and multimedia production. Learn about GANs, style transfer, and their applications in creating personalized avatars, virtual environments, and visual effects in movies and games. Evolve your creativity with computational capabilities for visually compelling media.",
+      icon: <FaFilm />, // Replace with actual icon
     },
     {
-      title: "Advancements in Deep Learning Architectures",
-      icon: <AiOutlineRise />,
-      content:
-        "Explore the latest advancements in deep learning architectures for AI. From CNNs to RNNs and Transformer models, discover how these innovations are reshaping image processing and more. Understanding these architectures is essential for developing robust AI solutions. As research progresses, the applications of deep learning continue to expand across various domains.",
+      title: "Deepfake Detection Techniques",
+      description:
+        "Protect your digital media with deepfake detection techniques. Learn how AI and machine learning algorithms can identify manipulated videos and images. Utilize forensic analysis, watermarking, and blockchain verification for authenticity.",
+      icon: <FaShieldAlt />, // Replace with actual icon
     },
     {
-      title: "Role of AI & Robotics in Industry & Business",
-      icon: <AiOutlineSetting />,
-      content:
-        "Discover how AI and Robotics revolutionize industries with precision and efficiency. From manufacturing to healthcare, automation drives growth and competitiveness. The integration of AI and Robotics optimizes workflows and reduces operational costs. As industries adapt to these technologies, they can respond more quickly to market changes and enhance customer satisfaction.",
+      title: "Synthetic Data Generation",
+      description:
+        "Discover the importance of synthetic data generation in enhancing model accuracy and protecting privacy. Explore techniques such as statistical modeling, GANs, and AI-driven approaches for creating artificial data with real-world patterns.",
+      icon: <FaDatabase  />, // Replace with actual icon
     },
   ];
 
@@ -113,7 +113,7 @@ function Aivssb() {
       <div className="ai-view-hero-section">
         <div className="ai-view-hero-text">
           <h1 className="ai-view-hero-heading">
-            Artificial Intelligence Scientific Sessions
+            Generative AI Scientific Sessions
           </h1>
           <p className="ai-view-hero-paragraph">
             Join cutting-edge Artificial Intelligence Scientific Sessions to
@@ -125,13 +125,13 @@ function Aivssb() {
             conferences.
           </p>
           <div className="ai-view-buttons">
-            <Link to="/artificial-intelligence/artificial-intelligence-download-broucher/">
+            <Link to="/generative-ai/generative-ai-download-broucher/">
               <button className="ai-view-button">Brochure Download</button>
             </Link>
-            <Link to="/artificial-intelligence/artificial-intelligence-abstract-submission/">
+            <Link to="/generative-ai/generative-ai-abstract-submission/">
               <button className="ai-view-button">Abstract Submission</button>
             </Link>
-            <Link to="/artificial-intelligence/artificial-intelligence-register-now/">
+            <Link to="/generative-ai/generative-ai-register-now/">
               <button className="ai-view-button ai-view-goto-regs">
                 Go To Registration
               </button>
@@ -152,7 +152,7 @@ function Aivssb() {
               allowMultipleExpanded={false}
               preExpanded={[0]}
             >
-              {aiviewsessions.map((item, i) => {
+              {sessions.map((item, i) => {
                 const [className, setClassName] = useState(null);
                 return (
                   <AccordionItem
@@ -177,7 +177,7 @@ function Aivssb() {
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
-                      <p className="secondaryText">{item.content}</p>
+                      <p className="secondaryText">{item.description}</p>
                     </AccordionItemPanel>
                   </AccordionItem>
                 );
