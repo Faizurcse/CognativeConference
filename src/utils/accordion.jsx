@@ -19,18 +19,18 @@ const data = [
     detail:
       "Understand the power of big data analytics in extracting valuable insights from massive datasets. Learn how advanced analytics techniques are being used to solve complex business challenges.",
   },
-  {
-    icon: <HiShieldCheck />,
-    heading: "Cybersecurity in AI",
-    detail:
-      "Stay ahead of the curve with the latest developments in AI-driven cybersecurity. Discover how AI is being used to detect and prevent cyber threats, ensuring the safety and security of digital assets.",
-  },
-  {
-    icon: <MdAnalytics />,
-    heading: "AI Ethics and Governance",
-    detail:
-      "Engage in discussions on the ethical implications and governance of AI technologies. Explore frameworks and best practices for ensuring responsible AI development and deployment.",
-  },
+  // {
+  //   icon: <HiShieldCheck />,
+  //   heading: "Cybersecurity in AI",
+  //   detail:
+  //     "Stay ahead of the curve with the latest developments in AI-driven cybersecurity. Discover how AI is being used to detect and prevent cyber threats, ensuring the safety and security of digital assets.",
+  // },
+  // {
+  //   icon: <MdAnalytics />,
+  //   heading: "AI Ethics and Governance",
+  //   detail:
+  //     "Engage in discussions on the ethical implications and governance of AI technologies. Explore frameworks and best practices for ensuring responsible AI development and deployment.",
+  // },
 ];
 
 export default data;

@@ -48,9 +48,16 @@ function Footer() {
             <FaWhatsapp size={30} />
           </div>
           <div className="flexCenter menu-items">
-            <span>Home</span>
-            <span>About Us</span>
-            <span>Contact Us</span>
+            <Link to="/">
+            <span style={{color:"blue"}}>Home</span>
+            </Link>
+            <Link to="/about">
+            <span style={{color:"blue"}}>About Us</span>
+            </Link>
+
+            <Link to="/contact">
+            <span style={{color:"blue"}}>Contact Us</span>
+            </Link>
           </div>
         </div>
       </div>

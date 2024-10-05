@@ -13,20 +13,27 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  transition: background-color 0.3s, color 0.3s;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .h-wrapper.scrolled .h-menu {
   color: black;
+  transition: color 0.3s ease-in-out;
 }
 
 .h-wrapper.scrolled {
   background: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.h-wrapper.scrolled .menu-icon svg {
+  color: var(--black);
 }
 
 .scrolled .dropdown-toggle {
   background-color: white;
   color: #000000;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .h-container {
@@ -38,7 +45,7 @@
 
 .h-menu {
   gap: 2rem;
-  font-weight: 800;
+  font-weight: 600;
 }
 
 .h-menu > *:hover {
@@ -47,6 +54,7 @@
 
 .h-menu .active {
   color: var(--active-color);
+  transition: color 0.3s ease-in-out;
 }
 
 .favIcon {
@@ -60,12 +68,13 @@
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .dropdown-menu {
   border-radius: 5px;
   border: 1px solid black;
-  display: block;
+  display: none;
   position: absolute;
   background-color: white;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -80,6 +89,7 @@
   display: block;
   color: black;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .dropdown-item:hover {
@@ -93,13 +103,15 @@
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
+    color: white;
+    transition: color 0.3s ease-in-out;
   }
 
   .h-menu {
     z-index: 99;
     color: var(--black);
     position: absolute;
-    top: 5rem;
+    top: 5.2rem;
     right: 0.5rem;
     background: white;
     flex-direction: column;
@@ -119,4 +131,8 @@
     border: none;
     cursor: pointer;
   }
+}
+
+.upcoming:hover .dropdown-menu {
+  display: block;
 }

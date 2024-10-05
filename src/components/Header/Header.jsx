@@ -12,13 +12,8 @@ import "./Header.css";
 
 function Header() {
   const [menuOpened, setMenuOpened] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
-
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
 
   const getMenuStyles = (menuOpened) => {
     if (document.documentElement.clientWidth <= 800) {
@@ -29,7 +24,7 @@ function Header() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      if (scrollPosition > 650) {
+      if (scrollPosition > 652) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -51,7 +46,7 @@ function Header() {
           alt="logo"
           width={150}
         />
-        <OutsideClickHandler onOutsideClick={() => setMenuOpened(false)}>
+        {/* <OutsideClickHandler onOutsideClick={() => setMenuOpened(false)}> */}
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
             <Link to="/" className={location.pathname === "/" ? "active" : ""}>
               Home
@@ -62,56 +57,54 @@ function Header() {
             >
               About us
             </Link>
-            <span
-              className={`upcomming ${
+            <div
+              className={`upcoming ${
                 location.pathname === "/artificial-intelligence" ? "active" : ""
               } ${location.pathname === "/ai-in-Industry" ? "active" : ""} ${
                 location.pathname === "/cyber-security" ? "active" : ""
               } ${location.pathname === "/generative-ai" ? "active" : ""}`}
             >
               Upcoming Conferences
-              <button className="dropdown-toggle" onClick={toggleDropdown}>
+              <button className="dropdown-toggle">
                 <FaChevronDown />
               </button>
-              {isOpen && (
-                <div className="dropdown-menu">
-                  <Link
-                    to="/artificial-intelligence"
-                    className={`dropdown-item ${
-                      location.pathname === "/artificial-intelligence"
-                        ? "active"
-                        : ""
-                    } `}
-                  >
-                    Artificial Intelligence
-                  </Link>
-                  <Link
-                    to="/cyber-security"
-                    className={`dropdown-item ${
-                      location.pathname === "/cyber-security" ? "active" : ""
-                    }`}
-                  >
-                    AI in Cyber Security
-                  </Link>
-                  <Link
-                    to="/generative-ai"
-                    className={`dropdown-item ${
-                      location.pathname === "/generative-ai" ? "active" : ""
-                    }`}
-                  >
-                    Generative AI
-                  </Link>
-                  <Link
-                    to="/ai-in-Industry"
-                    className={`dropdown-item ${
-                      location.pathname === "/ai-in-Industry" ? "active" : ""
-                    }`}
-                  >
-                    AI-in-Industry
-                  </Link>
-                </div>
-              )}
-            </span>
+              <div className="dropdown-menu">
+                <Link
+                  to="/artificial-intelligence"
+                  className={`dropdown-item ${
+                    location.pathname === "/artificial-intelligence"
+                      ? "active"
+                      : ""
+                  } `}
+                >
+                  Artificial Intelligence
+                </Link>
+                <Link
+                  to="/cyber-security"
+                  className={`dropdown-item ${
+                    location.pathname === "/cyber-security" ? "active" : ""
+                  }`}
+                >
+                  AI in Cyber Security
+                </Link>
+                <Link
+                  to="/generative-ai"
+                  className={`dropdown-item ${
+                    location.pathname === "/generative-ai" ? "active" : ""
+                  }`}
+                >
+                  Generative AI
+                </Link>
+                <Link
+                  to="/ai-in-Industry"
+                  className={`dropdown-item ${
+                    location.pathname === "/ai-in-Industry" ? "active" : ""
+                  }`}
+                >
+                  AI-in-Industry
+                </Link>
+              </div>
+            </div>
             <Link
               to="/contact"
               className={location.pathname === "/contact" ? "active" : ""}
@@ -124,7 +117,7 @@ function Header() {
               <FaTwitter size={30} />
             </div>
           </div>
-        </OutsideClickHandler>
+        {/* </OutsideClickHandler> */}
 
         <div
           className="menu-icon"
