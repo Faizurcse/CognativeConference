@@ -25,7 +25,7 @@ function AboutCognitive() {
           </div>
         </div>
         <div className="flexColStart v-right">
-          <span className="orangeText">comprehensive overview</span>
+          <span className="orangeText orangeText-about-cog">comprehensive overview</span>
           <span className="primaryText">About Cognitive tech Summit</span>
           <span className="secondaryText">
             This provides a comprehensive overview of the Cognitive Tech

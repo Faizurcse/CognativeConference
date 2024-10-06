@@ -56,6 +56,14 @@
         width: 100%;
     }
     
+    
  }
+ @media(max-width:640px){
+    .orangeText-about-cog{
+        width: 100%;
+        text-align: center;
+    }
+ }
+
 
  
