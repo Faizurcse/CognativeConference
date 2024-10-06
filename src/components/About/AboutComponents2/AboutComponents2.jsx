@@ -8,7 +8,7 @@ function AboutComponents2() {
         <div className="flexCenter About-2-v-left">
           <div className="About-2-image-container ">
             <img
-              src="https://cdn.pixabay.com/photo/2024/05/22/10/56/ai-generated-8780351_640.png"
+              src="/aboutusIMG.webp"
               alt="Error"
             />
           </div>
