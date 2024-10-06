@@ -10,7 +10,7 @@ function WhyChoose() {
           <div className="flexColStart WhyChoose-text-container-2">
             <span>
               <p className="secondaryText-2">&#11045;  Our focus is on fostering curiosity:</p>
-              <p className="secondaryText-2">
+              <p className="secondaryText-2 secondry-paragarapg">
               &#x21E8;  At the Cognitive Tech Summit, we promote exploration, discovery,
                 and challenging existing paradigms to expand knowledge across
                 various fields.

@@ -34,3 +34,10 @@
     background: linear-gradient(90deg, orange, yellow, green);
   }
   
+
+  @media(max-width:640px){
+    .choose-underLine{
+      text-align:center;
+    }
+
+  }

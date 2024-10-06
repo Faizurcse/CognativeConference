@@ -46,6 +46,11 @@
     background: linear-gradient(90deg, orange, yellow, green);
   }
   
+  @media(max-width:640px){
+    .VisionMission-container{
+      flex-direction: column;
+    }
+  }
   
   
   
