@@ -9,10 +9,8 @@ import {
 } from "react-accessible-accordion";
 import "react-accessible-accordion/dist/fancy-example.css";
 import { MdOutlineArrowDropDown } from "react-icons/md";
-
 import "./AboutCognitive.css";
 import data from "../../utils/accordion";
-import img22 from "../../../public/aiPartsImages.jpg"
 
 function AboutCognitive() {
   return (
@@ -21,7 +19,7 @@ function AboutCognitive() {
         <div className="v-left">
           <div className="image-container">
             <img className="img-22"
-              src={img22}
+              src="/aiPartsImages.jpg"
               alt="Error"
             />
           </div>

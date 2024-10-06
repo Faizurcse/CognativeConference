@@ -3,43 +3,25 @@
       "name": "Artificial Intelligence Conference",
       "date": "October 13-14, 2025",
       "place": "Zurich, Switzerland",
-      "image": "https://cognitivetechsummit.com/wp-content/uploads/2024/08/AI-Conference.png"
+      "image": "/cardimg1.webp"
     },
     {
-      "name": "Artificial Intelligence Conference",
-      "date": "October 13-14, 2025",
-      "place": "Zurich, Switzerland",
-      "image": "https://cognitivetechsummit.com/wp-content/uploads/2024/08/AI-Conference.png"
+      "name": "AI Cyber Security Conference​",
+      "date": "June 2-3, 2025",
+      "place": "Tokyo, Japan",
+      "image": "/cardimg2.webp"
     },
     {
-      "name": "Artificial Intelligence Conference",
-      "date": "October 13-14, 2025",
-      "place": "Zurich, Switzerland",
-      "image": "https://cognitivetechsummit.com/wp-content/uploads/2024/08/AI-Conference.png"
+      "name": "Generative Artificial Intelligence Conference",
+      "date": "November 10-11, 2025",
+      "place": "Osaka, Japan",
+      "image": "/cardimg3.png"
     },
     {
-      "name": "Artificial Intelligence Conference",
-      "date": "October 13-14, 2025",
-      "place": "Zurich, Switzerland",
-      "image": "https://cognitivetechsummit.com/wp-content/uploads/2024/08/AI-Conference.png"
-    },
-    {
-      "name": "Artificial Intelligence Conference",
-      "date": "October 13-14, 2025",
-      "place": "Zurich, Switzerland",
-      "image": "https://cognitivetechsummit.com/wp-content/uploads/2024/08/AI-Conference.png"
-    },
-    {
-      "name": "Artificial Intelligence Conference",
-      "date": "October 13-14, 2025",
-      "place": "Zurich, Switzerland",
-      "image": "https://cognitivetechsummit.com/wp-content/uploads/2024/08/AI-Conference.png"
-    },
-    {
-      "name": "Artificial Intelligence Conference",
-      "date": "October 13-14, 2025",
-      "place": "Zurich, Switzerland",
-      "image": "https://cognitivetechsummit.com/wp-content/uploads/2024/08/AI-Conference.png"
+      "name": "Artificial Intelligence Industry 4.0 Conference",
+      "date": "September 22-23, 2025",
+      "place": "Osaka, Japan",
+      "image": "/cardimg4.jpg"
     }
-    
+   
   ]

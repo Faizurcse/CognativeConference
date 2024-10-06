@@ -18,7 +18,7 @@ function FQAS() {
     <section className="faq-warpper">
       <div className="paddings innerWidth  faq-container">
         <div className="flexCenter faq">
-          <span className="primaryText">Frequently Asked Questions(FQAS)</span>
+          <span className="primaryText ">Frequently Asked Questions(FQAS)</span>
           
           <Accordion
             className="faq-accordian"
@@ -39,7 +39,7 @@ function FQAS() {
                         }
                       </AccordionItemState>
                       <div className="flexCenter faq-icon">{item.icon}</div>
-                      <span className=" primaryText-2">{item.heading}</span>
+                      <span className=" primaryText-2 headinfText">{item.heading}</span>
                       <div className="flexCenter faq-icon">
                         <MdOutlineArrowDropDown size={20} />
                       </div>

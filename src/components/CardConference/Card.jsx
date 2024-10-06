@@ -18,7 +18,7 @@ function Card() {
           {data.map((card, i) => (
             <SwiperSlide key={i}>
               <div className="flexColStart r-card">
-                <img src={card.image} alt="error" />
+                <img className="card-img" src={card.image} height='160' alt="error" />
                
 
                 <span className="secondaryText r-price">
@@ -28,7 +28,7 @@ function Card() {
                 <span className="primaryText-2">{card.name}</span>
               
                 <div className="flexCenter registerButton">
-                  <button className="button-2">Register Now</button>
+                  <button className="button-2 card-btn-2222">Register Now</button>
                 </div>
               </div>
             </SwiperSlide>
