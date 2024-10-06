@@ -41,11 +41,13 @@ function Header() {
   return (
     <section className={`h-wrapper ${isScrolled ? "scrolled" : ""}`}>
       <div className="flexCenter paddings innerWidth h-container">
+        <Link to="/">
         <img
           src={isScrolled ? "/logo.png" : "/COGNITIVE.png"}
           alt="logo"
           width={150}
-        />
+          />
+          </Link>
         {/* <OutsideClickHandler onOutsideClick={() => setMenuOpened(false)}> */}
           <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
             <Link to="/" className={location.pathname === "/" ? "active" : ""}>

@@ -36,6 +36,7 @@ function App() {
          <Route path="/cancellation-policy" element={<CancellationPolicy/>}/>
          <Route path="/terms-and-Conditions" element={<TermsandConditions/>}/>
          <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
+         <Route path="/register-now/" element={<RegisterNow/>}/>
          {/* AI */}
          <Route path="/artificial-intelligence/artificial-intelligence-download-broucher/" element={<DownloadBroucher Props1={"Artificial Intelligence Brochure Download"}/>}/>
          <Route path="/artificial-intelligence/artificial-intelligence-abstract-submission/" element={<AbstractSubmission  Props2={"Artificial Intelligence Abstract Submission Form"}/>}/>

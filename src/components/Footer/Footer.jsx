@@ -49,14 +49,14 @@ function Footer() {
           </div>
           <div className="flexCenter menu-items">
             <Link to="/">
-            <span style={{color:"blue"}}>Home</span>
+            <span style={{color:"orange"}}>Home</span>
             </Link>
             <Link to="/about">
-            <span style={{color:"blue"}}>About Us</span>
+            <span style={{color:"orange"}}>About Us</span>
             </Link>
 
             <Link to="/contact">
-            <span style={{color:"blue"}}>Contact Us</span>
+            <span style={{color:"orange"}}>Contact Us</span>
             </Link>
           </div>
         </div>

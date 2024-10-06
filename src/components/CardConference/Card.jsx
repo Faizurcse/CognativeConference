@@ -5,6 +5,7 @@ import "./Card.css";
 import { sliderSettings} from "../../utils/common.js";
 
 import data from "../../utils/slider.json";
+import { Link } from "react-router-dom";
 function Card() {
   return (
     <section className="r-wrapper">
@@ -28,7 +29,9 @@ function Card() {
                 <span className="primaryText-2">{card.name}</span>
               
                 <div className="flexCenter registerButton">
+                  <Link to="/register-now/">
                   <button className="button-2 card-btn-2222">Register Now</button>
+                  </Link>
                 </div>
               </div>
             </SwiperSlide>

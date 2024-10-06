@@ -2,7 +2,7 @@
   --black: #000000;
   --transparent: white;
   --secondary: white;
-  --active-color: rgb(255, 0, 0);
+  --active-color: orange;
 }
 
 .h-wrapper {
@@ -54,7 +54,9 @@
 
 .h-menu .active {
   color: var(--active-color);
-  transition: color 0.3s ease-in-out;
+  border-bottom: 2px solid orange;
+  transition: ease-in-out 0.2s;
+  /* transition: color 0.3s ease-in-out; */
 }
 
 .favIcon {

@@ -7,7 +7,7 @@ function RegisterNow() {
       <div style={{backgroundColor:'var(--black)'}}>
 <Header/>
       </div>
-      <h1 style={{textAlign:'center',color:'red'}}>Register now comming soon...</h1>
+      <h1 style={{textAlign:'center',color:'blue',margin:'10rem'}}>Register now comming soon...</h1>
       <Footer/>
     </div>
   )
