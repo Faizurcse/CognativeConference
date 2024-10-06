@@ -1,5 +1,6 @@
 .About-2-v-warpper{
     background: var(--black);
+    margin-top: 5rem;
 }
 .About-2-v-container .About-2-image-container{
     width:35rem;
@@ -10,7 +11,7 @@
     margin: 1rem;
     box-sizing: border-box;
     box-shadow: 2px 2px 22px 10px rgba(121, 140, 218, 0.082);
-    object-fit: cover 5px;
+    object-fit: cover ;
 }
 
 .About-2-v-container{
@@ -39,3 +40,36 @@
 .About-heading{
     color: aliceblue;
 }
+
+@media(max-width:640px){
+    
+
+    .About-2-v-left{
+        width: 100%;
+    }
+
+    .About-2-v-container .About-2-image-container{
+        border-radius:0.5rem 3rem 0 0;
+        height:22rem;
+    }
+    
+    .About-2-v-container .About-2-image-container>img{
+        object-fit: cover;
+    }
+
+    .About-2-v-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .About-heading{
+        text-align:center;
+    }
+    .about-2-LineHeight{
+        text-align:justify;
+    }
+}
+
+
+

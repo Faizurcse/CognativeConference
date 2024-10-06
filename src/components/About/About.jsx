@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from "../Header/Header.jsx"
 import Footer from "../Footer/Footer.jsx"
-import AboutHero from './AboutComponents/HeroAbout.jsx'
+// import AboutHero from './AboutComponents/HeroAbout.jsx'
 import AboutComponents2 from "../About/AboutComponents2/AboutComponents2.jsx"
 import VissionMission from "../About/VisionMission/VisionMission.jsx"
 import WhyChoose from "../About/WhyChoose/WhyChoose.jsx"
@@ -14,7 +14,7 @@ function About() {
       <div className="about-header">
       <Header/>
       </div>
-     <AboutHero/>
+     {/* <AboutHero/> */}
      <AboutComponents2/>
      <VissionMission/>
      <WhyChoose/>
