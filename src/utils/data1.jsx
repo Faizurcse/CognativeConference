@@ -4,7 +4,7 @@ import { MdAnalytics } from "react-icons/md";
 const data1 = [
   {
     icon: <HiLightBulb />,
-    heading: "What is the AI Summit?",
+    heading: "What exactly is the AI Summit about?",
     detail:
       "The Cognitive Tech Summit is an event where experts and enthusiasts from around the Globe come together to talk about the latest in AI conference and other new technologies. It’s a place to share ideas and learn how these AI Technologies are changing our world.",
   },
