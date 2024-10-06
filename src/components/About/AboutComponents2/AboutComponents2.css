@@ -71,5 +71,15 @@
     }
 }
 
+@media (max-width: 1026px){
+   
+    .About-2-v-container{
+  flex-direction: column;
+    }
+
+    
+    
+}
+
 
 

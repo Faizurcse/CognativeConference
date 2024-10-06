@@ -26,3 +26,9 @@
     background: linear-gradient(90deg, orange, yellow, green);
   }
   
+  @media(max-width:640px){
+    .future-underLine{
+      text-align:center;
+    }
+
+  }
