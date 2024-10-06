@@ -2,6 +2,7 @@
   position: relative;
   overflow: hidden;
   font-family: Arial, sans-serif;
+  margin-top: 5.6rem;
 }
 
 .ai-image-container {
@@ -127,8 +128,10 @@
   transform: translateY(-5px);
 }
 
+
+
 /* Responsive Styles */
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
   .ai-hero-wrapper{
     overflow: hidden;
   }
@@ -233,3 +236,5 @@
       padding: 0.25rem 2rem;
   }
 }
+
+ */
