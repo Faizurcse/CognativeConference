@@ -8,7 +8,7 @@ function Contact() {
       <div className="conatct-header">
         <Nav />
       </div>
-      <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '1024px', margin: '0 auto', padding: '20px' }}>
+      <div style={{ fontFamily: 'Arial, sans-serif', maxWidth: '1024px', margin: '5rem auto', padding: '20px' }}>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
         <div style={{ flex: '1 1 300px', padding: '20px' }}>
           <img src="https://raiday.ai/wp-content/uploads/2024/04/Contact-Us-1024x585.webp" alt="Contact Us" style={{ width: '100%', borderRadius: '10px' }} />

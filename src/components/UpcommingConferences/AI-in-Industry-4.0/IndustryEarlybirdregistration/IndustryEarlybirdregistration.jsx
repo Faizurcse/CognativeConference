@@ -1,6 +1,7 @@
 import React from "react";
 import { FaMicrophone } from "react-icons/fa";
 import "./IndustryEarlybr.css";
+import { Link } from "react-router-dom";
 
 function Earlybirdregistration() {
   return (
@@ -20,7 +21,9 @@ function Earlybirdregistration() {
             <span className="orange-text">Oral Presentations</span>
             <span className="primary-text-2">Speaker Registration</span>
             <div className="flex-center earlybird-register-button">
+            <Link to="/register-now/">
               <button className="button-2 earlybird-button-2">Register Now</button>
+            </Link>
             </div>
           </div>
 
@@ -32,7 +35,9 @@ function Earlybirdregistration() {
             <span className="orange-text">Oral Presentations</span>
             <span className="primary-text-2">Delegate Registration</span>
             <div className="flex-center earlybird-register-button">
+            <Link to="/register-now/">
               <button className="button-2 earlybird-button-2">Register Now</button>
+            </Link>
             </div>
           </div>
 
@@ -44,7 +49,9 @@ function Earlybirdregistration() {
             <span className="orange-text">Oral Presentations</span>
             <span className="primary-text-2">Student Registration</span>
             <div className="flex-center earlybird-register-button">
+            <Link to="/register-now/">
               <button className="button-2 earlybird-button-2">Register Now</button>
+            </Link>
             </div>
           </div>
         </div>
