@@ -1,4 +1,4 @@
-.ss-warpper{
+/* .ss-warpper{
     background-color: rgba(216, 231, 245, 0.612);
 }
 
@@ -64,13 +64,13 @@
     border-radius: 6px;
  }
 
- @media(max-width:1024px){
-    .ss-v-container{
-        flex-direction: column;
-        width: 100%;
-    }
+ 
+ } */
 
-    .text-align-center{
+ /* @media(max-width:1024px){
+    
+
+    .orangeText{
         text-align:center;
     }
- }
+} */

@@ -82,13 +82,13 @@ function AIHero() {
         <div className="ai-buttons-container">
           <div className="ai-boucher-cards ai-card">
           <Link to="/artificial-intelligence/artificial-intelligence-download-broucher/">
-            <button className="ai-button">Download Brochure</button>
+            <button className="ai-button ai-dwnd">Download Brochure</button>
           </Link>
           </div>
 
           <div className="ai-abstract-cards ai-card">
             <Link to="/artificial-intelligence/artificial-intelligence-abstract-submission/">
-            <button className="ai-button">Abstract Submission</button>
+            <button className="ai-button ">Abstract Submission</button>
             </Link>
           </div>
 
@@ -100,7 +100,7 @@ function AIHero() {
 
           <div className="ai-speaker-cards ai-card">
             <Link to="/artificial-intelligence/artificial-intelligence-speaker-guidelines/">
-              <button className="ai-button">Speaker Guidelines</button>
+              <button className="ai-button ai-speaker">Speaker Guidelines</button>
             </Link>
           </div>
         </div>

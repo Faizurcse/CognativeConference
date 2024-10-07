@@ -62,7 +62,7 @@ const BroucherDownload = ({Props1}) => {
 const styles = {
   heroContainer: {
     position: "relative",
-    height: "50vh",
+    height: "60vh",
     backgroundImage:
       "url('/Broucher.png')",
     backgroundSize: "cover",

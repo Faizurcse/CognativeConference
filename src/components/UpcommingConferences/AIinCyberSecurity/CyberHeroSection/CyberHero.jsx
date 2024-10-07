@@ -82,7 +82,7 @@ function CyberHero() {
         <div className="ai-buttons-container">
           <div className="ai-boucher-cards ai-card">
             <Link to="/cyber-security/cyber-security-download-broucher/" >
-            <button className="ai-button">Download Brochure</button>
+            <button className="ai-button ai-dwnd">Download Brochure</button>
             </Link>
           </div>
 
@@ -100,7 +100,7 @@ function CyberHero() {
 
           <div className="ai-speaker-cards ai-card">
             <Link to="/cyber-security/cyber-security-speaker-guidelines/">
-            <button className="ai-button">Speaker Guidelines</button>
+            <button className="ai-button ai-speaker">Speaker Guidelines</button>
             </Link>
           </div>
         </div>

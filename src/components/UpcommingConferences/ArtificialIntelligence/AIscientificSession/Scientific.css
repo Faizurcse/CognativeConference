@@ -65,6 +65,13 @@
  }
 
  @media(max-width:640px){
-    
-    
+    .ss-v-container{
+        flex-direction: column;
+    }
+    .text-align-center{
+       margin:auto;
+    }
+    .orangeText{
+       text-align: center;
+    }
  }

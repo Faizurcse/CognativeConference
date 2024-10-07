@@ -141,7 +141,7 @@ function AbstractTemplate({Props2}) {
 const styles = {
   heroContainer: {
     position: "relative",
-    height: "50vh",
+    height: "60vh",
     backgroundImage:
       "url('/abstract.jpg')",
     backgroundSize: "cover",

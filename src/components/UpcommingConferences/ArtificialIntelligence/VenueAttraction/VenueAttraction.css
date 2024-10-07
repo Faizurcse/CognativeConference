@@ -50,3 +50,30 @@
     font-size: 1rem;
 }
 
+ @media (max-width: 640px) {
+    .VenueAttraction-v-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .VenueAttraction-image-container {
+        width: 100%;
+        height:15rem;
+        border-radius: 3rem 0rem 1rem 1rem;
+    }
+
+    .VenueAttraction-LineHeight {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .VenueAttraction-LineHeight > ul {
+        max-width: 100%;
+    }
+
+    .VenueAttraction-LineHeight > ul > li {
+        font-size: 0.9rem;
+    }
+
+} 

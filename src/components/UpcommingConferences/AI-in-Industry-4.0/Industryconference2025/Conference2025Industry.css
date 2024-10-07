@@ -1,4 +1,4 @@
-.conference-2025-v-warpper{
+/* .conference-2025-v-warpper{
     background-color: rgba(216, 231, 245, 0.612);
 }
 .conference-2025-v-warpper .conference-2025-image-container{
@@ -35,25 +35,6 @@
     line-height:1.8;
 }
 
+} */
 
-@media (max-width: 768px) {
-    .conference-2025-v-container {
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .conference-2025-v-warpper .conference-2025-image-container {
-        width: 100%;
-        height: 25rem;
-    }
-
-    .conference-2025-v-right {
-        max-width: 90%;
-        text-align: center;
-    }
-
-    
-    .conference-2025-LineHeight{
-        text-align:justify;
-    }
-}

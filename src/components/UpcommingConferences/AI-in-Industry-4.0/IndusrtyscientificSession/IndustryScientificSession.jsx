@@ -19,7 +19,7 @@ function ScientificSession() {
   return (
     <section className="ss-warpper">
       <div className="paddings innerWidth flexColStart ss-heading">
-        <span className=" orangeText text-align-center">
+        <span className=" orangeText ">
           Generative AI Summit Scientific Session
         </span>
         <span className="primaryText ">

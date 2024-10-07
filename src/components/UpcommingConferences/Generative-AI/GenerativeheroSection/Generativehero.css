@@ -1,4 +1,4 @@
-.ai-hero-wrapper {
+/* .ai-hero-wrapper {
   position: relative;
   overflow: hidden;
   font-family: Arial, sans-serif;
@@ -127,7 +127,7 @@
   transform: translateY(-5px);
 }
 
-/* Responsive Styles */
+
 @media (max-width: 1200px) {
   .ai-hero-wrapper{
     overflow: hidden;
@@ -232,4 +232,4 @@
   .ai-register {
       padding: 0.25rem 2rem;
   }
-}
+} */

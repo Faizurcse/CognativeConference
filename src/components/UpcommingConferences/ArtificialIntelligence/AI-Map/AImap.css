@@ -68,5 +68,21 @@
     margin-bottom: 2rem;
   }
   
+
   
+    @media(max-width:640px){
+    .ai-map-container{
+      flex-direction: column;
+    }
+    .ai-map-left {
+      width: 100%;
+    }
+    .ai-map-right{
+      width: 100%;
+    }
+    .contact-form {
+      border-radius: 2rem 0rem 0.5rem 0.5rem;
+    }
+  } 
+   
   

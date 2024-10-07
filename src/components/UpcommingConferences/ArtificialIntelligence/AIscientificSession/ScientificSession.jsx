@@ -19,7 +19,7 @@ function ScientificSession() {
   return (
     <section className="ss-warpper">
       <div className="paddings innerWidth flexColStart ss-heading">
-        <span  className="text-align-center orangeText">AI Summit Scientific Sessions</span>
+        <span  className="orangeText text-align-center">AI Summit Scientific Sessions</span>
         <span className="primaryText">
           Below are the scientific sessions of the conference
         </span>

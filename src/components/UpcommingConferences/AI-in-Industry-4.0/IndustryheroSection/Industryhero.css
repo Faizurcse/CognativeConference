@@ -1,4 +1,4 @@
-.ai-hero-wrapper {
+/* .ai-hero-wrapper {
   position: relative;
   overflow: hidden;
   font-family: Arial, sans-serif;
@@ -127,8 +127,10 @@
   transform: translateY(-5px);
 }
 
-/* Responsive Styles */
+
 @media (max-width: 1200px) {
+
+
   .ai-hero-wrapper{
     overflow: hidden;
   }
@@ -142,6 +144,7 @@
 }
 
 @media (max-width: 992px) {
+ 
   .ai-hero-wrapper{
     overflow: hidden;
   }
@@ -166,6 +169,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .ai-hero-wrapper{
     overflow: hidden;
   }
@@ -195,7 +199,8 @@
   }
 }
 
-@media (max-width: 576px) {
+@media(max-width: 576px) {
+  
   .ai-hero-wrapper{
     overflow: hidden;
   }
@@ -234,3 +239,4 @@
       padding: 0.25rem 2rem;
   }
 }
+ */
