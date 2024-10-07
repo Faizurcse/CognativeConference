@@ -13,8 +13,8 @@ function Conference2025() {
           </div>
         </div>
         <div className="flexColStart conference-2025-v-right">
-          <span className="primaryText">
-            Artificial Intelligence <br /> Conference - 2025
+          <span className="primaryText ">
+            Artificial Intelligence  Conference 2025
           </span>
           <p className="secondaryText-2 conference-2025-LineHeight">
             Join us for the Artificial Intelligence Conference on October 13-14,

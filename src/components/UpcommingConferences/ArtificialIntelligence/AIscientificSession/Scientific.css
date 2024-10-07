@@ -64,10 +64,7 @@
     border-radius: 6px;
  }
 
- @media(max-width:1024px){
-    .ss-v-container{
-        flex-direction: column;
-        width: 100%;
-    }
-
+ @media(max-width:640px){
+    
+    
  }

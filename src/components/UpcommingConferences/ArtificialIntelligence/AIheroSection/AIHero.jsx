@@ -16,6 +16,7 @@ function AIHero() {
           className="ai-img"
           src="https://aimadeimage.net/wp-content/uploads/2023/11/ai-robot-wallpaper-16.jpg"
           alt="AI Conference"
+
         />
       </div>
       <div className="ai-main">

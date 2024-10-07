@@ -10,10 +10,10 @@
   height: 40.3rem;
 }
 
-.ai-img {
+/* .ai-img {
   width: 100%;
   height: 100%;
-}
+} */
 
 .ai-main {
   position: absolute;
@@ -130,111 +130,14 @@
 
 
 
-/* Responsive Styles */
-/* @media (max-width: 1200px) {
-  .ai-hero-wrapper{
-    overflow: hidden;
+@media(max-width:640px){
+  
+  .ai-primarytext{
+    margin-top:3.8rem;
   }
-  .ai-primarytext {
-      font-size: 2.5rem;
+  .ai-secondarytext-2{
+    margin-bottom: -2rem;
   }
   
-  .ai-secondarytext-2 {
-      font-size: 1.25rem;
-  }
 }
 
-@media (max-width: 992px) {
-  .ai-hero-wrapper{
-    overflow: hidden;
-  }
-  .ai-primarytext {
-      font-size: 2rem;
-  }
-  
-  .ai-secondarytext-2 {
-      font-size: 1rem;
-  }
-  
-  .ai-info-card {
-      flex-direction: column;
-      align-items: flex-start;
-      text-align: left;
-  }
-  
-  .ai-logo {
-      max-width: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-  .ai-hero-wrapper{
-    overflow: hidden;
-  }
-  .ai-main {
-      padding: 1rem;
-  }
-  
-  .ai-primarytext {
-      font-size: 1.75rem;
-  }
-  
-  .ai-secondarytext-2 {
-      font-size: 0.875rem;
-  }
-  
-  .ai-info-card {
-      padding: 0.5rem;
-  }
-  
-  .ai-button {
-      padding: 0.5rem 1rem;
-      font-size: 0.875rem;
-  }
-  
-  .ai-register {
-      padding: 0.5rem 2rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .ai-hero-wrapper{
-    overflow: hidden;
-  }
-  .ai-primarytext {
-      font-size: 1.5rem;
-  }
-  
-  .ai-secondarytext-2 {
-      font-size: 0.75rem;
-  }
-  
-  .ai-info-card {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      padding: 0.5rem;
-      gap: 1rem;
-  }
-  
-  .ai-date, .ai-venue {
-      flex-direction: column;
-      align-items: center;
-      gap: 0.25rem;
-  }
-  
-  .ai-logo {
-      max-width: 150px;
-  }
-  
-  .ai-button {
-      padding: 0.25rem 1rem;
-      font-size: 0.75rem;
-  }
-  
-  .ai-register {
-      padding: 0.25rem 2rem;
-  }
-}
-
- */

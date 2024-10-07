@@ -34,3 +34,20 @@
 .conference-2025-LineHeight{
     line-height:1.8;
 }
+
+@media (max-width: 640px) {
+    .conference-2025-v-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conference-2025-v-warpper .conference-2025-image-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .conference-2025-v-right {
+        max-width: 90%;
+        text-align: center;
+    }
+}

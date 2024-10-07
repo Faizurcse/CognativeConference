@@ -11,7 +11,7 @@ function Earlybirdregistration() {
           <span  className="orangeText">Early bird registration available</span>
         </div>
 
-        <div className="flex-center">
+        <div className="flex-center ">
           <div className="flex-col-start earlybird-r-card">
             <span className="earlybird-icon"><FaMicrophone /></span>
             <span className="secondary-text earlybird-r-price">

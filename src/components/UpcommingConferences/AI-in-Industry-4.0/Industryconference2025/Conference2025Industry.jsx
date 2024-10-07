@@ -14,8 +14,8 @@ function GenerativeConference() {
           </div>
         </div>
         <div className="flexColStart conference-2025-v-right">
-          <span className="primaryText">
-            AI Industry 4.0 <br />
+          <span className=" primaryText">
+            AI Industry 4.0 
             Conference 2025
           </span>
           <p className="secondaryText-2 conference-2025-LineHeight">

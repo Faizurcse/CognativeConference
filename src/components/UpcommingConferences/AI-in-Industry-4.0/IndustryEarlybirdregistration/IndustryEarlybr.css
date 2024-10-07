@@ -82,10 +82,12 @@
 
 @media (max-width: 640px) {
     .earlybird-r-head {
-        align-items: center;
+       margin-top:1px;
     }
 
-    .earlybird-r-card {
-        margin: 1rem 0;
+    .flex-center {
+        flex-direction: column;
     }
+
+   
 }
