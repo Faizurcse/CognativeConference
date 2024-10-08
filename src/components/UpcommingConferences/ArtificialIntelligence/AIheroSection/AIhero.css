@@ -79,7 +79,7 @@
 }
 
 .ai-icon {
-  background-color: rgb(12, 12, 12);
+  background-color: rgb(30, 29, 29);
   font-size: 1.5rem;
   color: orange;
 }
@@ -140,12 +140,22 @@
     height: 100%;
 
   }
+  .ai-img{
+    display: none;
+  }
+
+  .ai-main{
+    background-color:black;
+  }
+  
  .ai-primarytext{
  font-size:2rem;
  }
 
  .ai-info-card{
+  width: 100%;
   flex-direction: column;
+  background: #171616;
  }
 
  .ai-logo{
@@ -172,7 +182,12 @@
   .ai-hero-wrapper{
     height:75rem;
   }
-
+  .ai-img{
+    display: none;
+  }
+  .ai-main{
+    background-color:black;
+  }
   .ai-image-container{
     height: 100%;
 
@@ -197,6 +212,15 @@
 .ai-dwnd{
   padding: 0.5rem 2.3rem;
 }
+.ai-logo{
+  width:100%;
+  height:10rem;
+ }
+
+.ai-info-card{
+  width: 100%;
+  flex-direction: column;
+ }
 }
 
 

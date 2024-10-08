@@ -33,7 +33,7 @@ const BroucherDownload = ({Props1}) => {
                 country={'in'}
                 value={''}
                 onChange={phone => console.log(phone)}
-                inputStyle={styles.phoneInput}
+                inputStyle={styles.phoneInput2}
               />
             </label>
             <label  style={styles.emailLabel}>
@@ -131,7 +131,7 @@ const styles = {
     width: "100%",
     boxSizing: "border-box",
   },
-  phoneInput: {
+  phoneInput2: {
     width: "100%",
     padding: "22px",
     paddingLeft:"40px",

@@ -87,4 +87,9 @@
 
     .flex-center {
         flex-direction: column;
-    }} 
+    }
+
+    .earlybird-button-2 {
+        padding: 0.5rem 4rem;
+    }
+} 
