@@ -75,3 +75,15 @@
        text-align: center;
     }
  }
+
+ @media(max-width:1040px){
+    .ss-v-container{
+        flex-direction: column;
+    }
+    .text-align-center{
+       margin:auto;
+    }
+    .orangeText{
+       text-align: center;
+    }
+ }
