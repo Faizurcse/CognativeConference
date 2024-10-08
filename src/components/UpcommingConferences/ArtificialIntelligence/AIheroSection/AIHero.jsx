@@ -14,7 +14,7 @@ function AIHero() {
       <div className="ai-image-container">
         <img
           className="ai-img"
-          src="https://aimadeimage.net/wp-content/uploads/2023/11/ai-robot-wallpaper-16.jpg"
+          src="/aiheroimg.jpg"
           alt="AI Conference"
 
         />

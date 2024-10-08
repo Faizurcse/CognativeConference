@@ -56,7 +56,7 @@
   
   .map-v-container{
     width:80%;
-    /* height: 450px; */
+    /* height:auto; */
   }
 
   .map-v-container iframe{
@@ -75,13 +75,19 @@
       flex-direction: column;
     }
     .ai-map-left {
+      width:100%;
+    }
+
+    .contact-form{
       width: 100%;
+      border-radius: 1rem;
     }
     .ai-map-right{
       width: 100%;
+     
     }
-    .contact-form {
-      border-radius: 2rem 0rem 0.5rem 0.5rem;
+    .map-v-container{
+      width: 100%;
     }
   } 
    
