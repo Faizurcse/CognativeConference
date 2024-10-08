@@ -132,6 +132,12 @@
 
 @media(max-width:640px){
   
+  .ai-date, .ai-venue {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+
   .ai-hero-wrapper{
     height:80rem;
   }
@@ -178,9 +184,13 @@
 }
 
 @media(max-width:1040px){
+  .ai-date, .ai-venue {
+    flex-direction: column;
+    gap: 1rem;
+  }
   
   .ai-hero-wrapper{
-    height:75rem;
+    height:80rem;
   }
   .ai-img{
     display: none;
@@ -193,8 +203,8 @@
 
   }
  .ai-primarytext{
- font-size: 1.6rem;
- font-weight: 900;
+ font-size: 1.5rem;
+ font-weight: 800;
  }
 
  .ai-secondarytext-2{
