@@ -40,6 +40,14 @@
      z-index: -1;
 }
 
+.secondaryText-22 {
+    font-size: 1rem;
+    /* font-weight: 400; 
+    background: linear-gradient(270deg, #ffb978 0%, #ffb978 100%);
+  -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; */
+  }
+  
 /* .search-bar{
     background-color: #fff;
     border-radius: 5px;
