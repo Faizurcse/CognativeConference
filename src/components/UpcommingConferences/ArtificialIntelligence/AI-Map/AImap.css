@@ -2,16 +2,19 @@
     background-color: rgba(65, 144, 218, 0.292);
   }
   
+
   .ai-map-left,
   .ai-map-right {
     flex: 1;
   }
   
+
   .contact-form {
-    background: #fff;
-    padding: 20px;
-    border-radius: 3rem 0rem 2rem 2rem;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #dee5f957;
+    padding:15px;
+    border-radius:0.5rem;
+    border: 8px solid rgba(65, 144, 218, 0.203); 
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.427);
     width:80%;
   }
   
@@ -23,7 +26,7 @@
   .input-group label {
     display: block;
     margin-bottom: 5px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: #000;
   }
   
@@ -34,7 +37,7 @@
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 16px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     transition: border 0.3s ease, box-shadow 0.3s ease;
   }
   
@@ -55,13 +58,18 @@
   
   
   .map-v-container{
-    width:80%;
+    width:87%;
     /* height:auto; */
+    border-radius:0.5rem;
+    border: 6px solid rgba(65, 144, 218, 0);
+    background-color: rgba(65, 144, 218, 0);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.427);
   }
 
   .map-v-container iframe{
     border: none;
-    border-radius:8px ;
+    padding:2px;
+    /* border-radius:1rem; */
   }
 
   .map-heading {

@@ -144,14 +144,12 @@ const CancellationPolicy = () => {
 const styles = {
   container: {
     fontFamily: '"Arial", sans-serif',
-    margin: "0 auto",
+    margin: "7rem auto",
     maxWidth: "1200px",
     padding: "20px",
     lineHeight: "1.6",
     color: "#333",
-    // backgroundColor: "#f9f9f9",
-    // borderRadius: "10px",
-    // boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+    
   },
   heading: {
     textAlign: "center",

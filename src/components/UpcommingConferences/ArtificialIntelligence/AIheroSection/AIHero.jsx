@@ -41,14 +41,14 @@ function AIHero() {
               <div className="ai-date flexCenter">
                 <FaCalendarAlt className="ai-icon" />
                 <div>
-                  <h3>Date</h3>
+                  <h4>Date</h4>
                   <span className="ai-textSize">October 13-14, 2025</span>
                 </div>
               </div>
               <div className="ai-venue flexCenter">
                 <FaMapMarkerAlt className="ai-icon" />
                 <div>
-                  <h3>Venue</h3>
+                  <h4>Venue</h4>
                   <span className="ai-textSize">Zurich, Switzerland</span>
                 </div>
               </div>
