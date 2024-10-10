@@ -9,6 +9,7 @@ function Hero() {
           <div className="hero-title">
             <div className="orange-circle" />
             <motion.h1
+            className="hero-h1-heading"
               initial={{ y: "2rem", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 2, type: "ease-in" }}
