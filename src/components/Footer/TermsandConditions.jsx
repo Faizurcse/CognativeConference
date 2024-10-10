@@ -199,7 +199,7 @@ const TermsAndConditions = () => {
           </p>
           <ul style={styles.list}>
             <li>By email: <a href="mailto:support@cognitivetechsummit.com" style={styles.link}>support@cognitivetechsummit.com</a></li>
-            <li>By visiting this page on our website: <a href="https://www.cognitivetechsummit.com/contact" style={styles.link}>https://www.cognitivetechsummit.com/contact</a></li>
+            <li>By visiting this page on our website: <a href="https://www.cognitivetechsummit.com/contact" style={styles.link}>https://www.cognitivetechsummit<br/>.com/contact</a></li>
             <li>By phone number: (650) 555-1234</li>
           </ul>
         </section>
